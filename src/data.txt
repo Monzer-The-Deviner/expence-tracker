@@ -1,0 +1,36 @@
+// const date = new Date()
+    // const weekDay =  date.getDay()
+    // const month =  date.getMonth()
+    // const year =  date.getFullYear()
+
+    // const {transactions}=useContext(GlobalContext)
+    // , currentWeek = [{date:{weekDay,month,year},values:[]}]
+    // , prevWeek = [{date:{weekDay,month,year},values:[]}]
+    // , lastTranTime =!transactions[transactions.length-1]|| typeof transactions[transactions.length-1]!=='object'? {weekDay:0,month:0,year:0}:transactions[transactions.length-1].tranTime
+    // , lastTranAmount =!transactions[transactions.length-1]|| typeof transactions[transactions.length-1]!=='object'? {weekDay:0,month:0,year:0}: transactions[transactions.length-1].amount
+    // , lastWeekTime =!currentWeek[currentWeek.length-1]|| typeof currentWeek[currentWeek.length-1]!=='object'? {weekDay:0,month:0,year:0}: currentWeek[currentWeek.length-1].date
+    // , lastWeekValues = currentWeek[currentWeek.length-1].values
+    
+    // if (weekDay==0) {
+    //     prevWeek = currentWeek
+    //     currentWeek = [
+    //         {date:{weekDay,month,year},values:[]}
+    //     ]
+    // }
+    // if (lastTranTime.weekDay+lastTranTime.month+lastTranTime.year>lastWeekTime.weekDay+lastWeekTime.month+lastWeekTime.year) {
+    //     currentWeek = [...currentWeek,{date:{
+    //                                 weekDay:lastTranTime.weekDay,
+    //                                 month:lastTranTime.month,
+    //                                 year:lastTranTime.year
+    //                             },values:[...lastWeekValues, lastTranAmount]}]
+    // }
+    // if (lastTranTime.weekDay+lastTranTime.month+lastTranTime.year==lastWeekTime.weekDay+lastWeekTime.month+lastWeekTime.year) {
+    //     currentWeek[currentWeek.length-1].values =[...lastWeekValues, lastTranAmount]
+    // }
+    // console.log(lastTranTime.weekDay+lastTranTime.month+lastTranTime.year==lastWeekTime.weekDay+lastWeekTime.month+lastWeekTime.year);
+    // console.log(lastWeekTime.weekDay+lastWeekTime.month+lastWeekTime.year);
+    // console.log(lastWeekValues);
+    //if the day was sunday thw weeks starts over
+        //if it's the same as the last day on the week element :
+            //add the value to the day
+        //if its greater : then will add it to the array
