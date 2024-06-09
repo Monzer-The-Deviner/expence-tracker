@@ -69,7 +69,15 @@ const SittingsPage = () => {
                     )}
                 </div>
             </section>
-            
+            <section>
+                <h3>Analitics Details</h3>
+
+            </section>
+            <section>
+                <h3>Are you happy with Traka?</h3>
+                <p> give us a feedback to improve our product so it can 
+                suit your needs :</p>
+            </section>
         </>
      );
 }

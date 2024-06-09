@@ -10,7 +10,7 @@ const App = () => {
   return(
     <GlobalProvider>
     <Router>
-    <div className="flex bg-slate-100 min-h-[100vh] justify-center">
+    <div className=" flex  bg-slate-100 min-h-[100vh] pb-36 justify-center">
       <div className="w-full p-2 md:w-3/4">
         <Routes>
             <Route path="/" element ={<HomePage /> } />
