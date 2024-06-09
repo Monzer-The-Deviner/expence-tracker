@@ -27,9 +27,9 @@
     // if (lastTranTime.weekDay+lastTranTime.month+lastTranTime.year==lastWeekTime.weekDay+lastWeekTime.month+lastWeekTime.year) {
     //     currentWeek[currentWeek.length-1].values =[...lastWeekValues, lastTranAmount]
     // }
-    // console.log(lastTranTime.weekDay+lastTranTime.month+lastTranTime.year==lastWeekTime.weekDay+lastWeekTime.month+lastWeekTime.year);
-    // console.log(lastWeekTime.weekDay+lastWeekTime.month+lastWeekTime.year);
-    // console.log(lastWeekValues);
+    //  (lastTranTime.weekDay+lastTranTime.month+lastTranTime.year==lastWeekTime.weekDay+lastWeekTime.month+lastWeekTime.year);
+    //  (lastWeekTime.weekDay+lastWeekTime.month+lastWeekTime.year);
+    //  (lastWeekValues);
     //if the day was sunday thw weeks starts over
         //if it's the same as the last day on the week element :
             //add the value to the day

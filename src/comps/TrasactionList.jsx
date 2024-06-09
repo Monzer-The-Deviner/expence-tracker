@@ -4,7 +4,7 @@ import { useContext } from 'react'
 
 const TrasactionList = ({groub,task,groubList,taskList,addTask,addGroub,inputTask,inputGroub,checkBox,handleCheck,handleSelect}) => {
     const {transactions} = useContext(GlobalContext)
-    console.log(transactions);
+     
     let prevDate = 0
     return ( 
         <div className='flex-col'>

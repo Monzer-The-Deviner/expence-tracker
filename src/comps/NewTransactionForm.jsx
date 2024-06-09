@@ -70,7 +70,7 @@ const NewTransactionForm = () => {
                             weekDay: date.getDay(),
                             year : date.getFullYear()
                         }
-                        console.log(date.getDay())
+                         
                         
                         if (Text.length >0){ 
                             addTran({id:newId() , text: Text , amount :Math.abs(Amount)*sign, tranTime: tranTime})

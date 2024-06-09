@@ -5,13 +5,13 @@ import { GlobalContext } from "./cotext/GlobalProvider";
 const AnaliticsPage = () => {
     const { transactions } = useContext(GlobalContext);
     const [pioriod, setPioriod] = useState('week');
-    const [currentData, setCurrentData] = useState({
-        transNumber: { visable: true, data: [] },
-        tranAmount: { visable: true, data: [] },
-        incomesNum: { visable: true, data: [] },
-        incomesAmount: { visable: true, data: [] },
-        expNumber: { visable: true, data: [] },
-        expAmount: { visable: true, data: [] }
+    const [data, setData] = useState({
+        transNumber: { visable: true, data1: [],data2: [] },
+        tranAmount: { visable: true, data1: [],data2: [] },
+        incomesNum: { visable: true, data1: [],data2: [] },
+        incomesAmount: { visable: true, data1: [],data2: [] },
+        expNumber: { visable: true, data1: [],data2: [] },
+        expAmount: { visable: true, data1: [],data2: []}
     });
 
     useEffect(() => {
@@ -36,7 +36,7 @@ const AnaliticsPage = () => {
                 const element = days[days.length - 1 - i];
                 currentPioriod.push(element);
             }
-            for (let i = 0; i <= weekDay; i++) {
+            for (let i = 0; i <=7; i++) {
                 const element = days[days.length - 2 - i - weekDay] !== undefined ? days[days.length - 2 - i - weekDay] : null;
                 if (element) {
                     prevPioriod.push(element);
@@ -52,19 +52,26 @@ const AnaliticsPage = () => {
         const incomesAmount = currentPioriod.map(el => el.amounts.filter(a => a > 0).reduce((p, c) => p + c, 0));
         const expNumber = currentPioriod.map(el => el.amounts.filter(a => a < 0).length);
         const expAmount = currentPioriod.map(el => el.amounts.filter(a => a < 0).reduce((p, c) => p + c, 0));
+        
+        const prevTransNumber = prevPioriod.map(el => el.amounts.length);
+        const prevTranAmount = prevPioriod.map(el => el.amounts.reduce((p, c) => p + c, 0));
+        const prevIncomesNum = prevPioriod.map(el => el.amounts.filter(a => a > 0).length);
+        const prevIncomesAmount = prevPioriod.map(el => el.amounts.filter(a => a > 0).reduce((p, c) => p + c, 0));
+        const prevExpNumber = prevPioriod.map(el => el.amounts.filter(a => a < 0).length);
+        const prevExpAmount = prevPioriod.map(el => el.amounts.filter(a => a < 0).reduce((p, c) => p + c, 0));
 
-        setCurrentData({
-            transNumber: { visable: true, data: transNumber },
-            tranAmount: { visable: true, data: tranAmount },
-            incomesNum: { visable: true, data: incomesNum },
-            incomesAmount: { visable: true, data: incomesAmount },
-            expNumber: { visable: true, data: expNumber },
-            expAmount: { visable: true, data: expAmount }
+        setData({
+            transNumber: { visable: true, data1: transNumber,data2: prevTransNumber },
+            tranAmount: { visable: true, data1: tranAmount,data2: prevTranAmount },
+            incomesNum: { visable: true, data1: incomesNum,data2: prevIncomesNum },
+            incomesAmount: { visable: true, data1: incomesAmount,data2: prevIncomesAmount },
+            expNumber: { visable: true, data1: expNumber,data2: prevExpNumber },
+            expAmount: { visable: true, data1: expAmount,data2: prevExpAmount }
         });
     }, [pioriod, transactions]);
 
-    const analisticsList = Object.entries(currentData);
-    console.log(analisticsList);
+    const analisticsList = Object.entries(data);
+    console.log();
     return (
         <div className="flex flex-col">
             {analisticsList.map(([key, element], index) => (
@@ -73,8 +80,8 @@ const AnaliticsPage = () => {
                         <div className="md:w-[48%] rounded-md bg-emerald-700">
                             <h1>{element.data}</h1>
                         </div>
-                        <div className="md:w-[48%] w-72 rounded-md overflow-hidden border">
-                            <Chart data1={element.data} data2={element.data} />
+                        <div className="md:w-[48%] h-full w-72 rounded-md overflow-hidden border">
+                            <Chart data1={element.data2} data2={element.data1} />
                         </div>
                     </div>
                 )

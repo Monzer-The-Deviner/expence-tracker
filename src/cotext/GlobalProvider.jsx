@@ -40,7 +40,7 @@ export const GlobalProvider = ({children})=>{
 
         let id = Math.floor(Math.random()*10000)
         if (transactions.find(tran=>tran.id==id)!=undefined) id = Math.floor(Math.random()*10000)
-        console.log(id)
+         
         return id
     }
 
