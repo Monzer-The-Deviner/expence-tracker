@@ -3,16 +3,9 @@ import Chart from "./comps/chart";
 import { GlobalContext } from "./cotext/GlobalProvider";
 
 const AnaliticsPage = () => {
-    const { transactions } = useContext(GlobalContext);
+    const { transactions,data, setData} = useContext(GlobalContext);
     const [pioriod, setPioriod] = useState('week');
-    const [data, setData] = useState({
-        transNumber: { visable: true, data1: [],data2: [] },
-        tranAmount: { visable: true, data1: [],data2: [] },
-        incomesNum: { visable: true, data1: [],data2: [] },
-        incomesAmount: { visable: true, data1: [],data2: [] },
-        expNumber: { visable: true, data1: [],data2: [] },
-        expAmount: { visable: true, data1: [],data2: []}
-    });
+    let updatedData ={}
 
     useEffect(() => {
         const date = new Date();
@@ -59,23 +52,17 @@ const AnaliticsPage = () => {
         const prevIncomesAmount = prevPioriod.map(el => el.amounts.filter(a => a > 0).reduce((p, c) => p + c, 0));
         const prevExpNumber = prevPioriod.map(el => el.amounts.filter(a => a < 0).length);
         const prevExpAmount = prevPioriod.map(el => el.amounts.filter(a => a < 0).reduce((p, c) => p + c, 0));
-
-        setData({
-            transNumber: { visable: true, data1: transNumber,data2: prevTransNumber },
-            tranAmount: { visable: true, data1: tranAmount,data2: prevTranAmount },
-            incomesNum: { visable: true, data1: incomesNum,data2: prevIncomesNum },
-            incomesAmount: { visable: true, data1: incomesAmount,data2: prevIncomesAmount },
-            expNumber: { visable: true, data1: expNumber,data2: prevExpNumber },
-            expAmount: { visable: true, data1: expAmount,data2: prevExpAmount }
-        });
+            console.log(data.transNumber.visible);
+        //update the state data based on those vars
+        
+        
     }, [pioriod, transactions]);
-
     const analisticsList = Object.entries(data);
     console.log();
     return (
         <div className="flex flex-col">
             {analisticsList.map(([key, element], index) => (
-                element.visable && (
+                element.visible && (
                     <div key={index} className={`rounded-md items-center justify-between mb-2 flex flex-col ${(index + 1) % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} shadow-md h-32 bg-white`}>
                         <div className="md:w-[48%] rounded-md bg-emerald-700">
                             <h1>{element.data}</h1>

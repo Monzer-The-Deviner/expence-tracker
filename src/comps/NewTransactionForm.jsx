@@ -5,13 +5,13 @@ import Transaction from "./Transaction";
 const NewTransactionForm = () => {
     const [Text, setText] = useState('');
     const [Amount, setAmount] = useState('');
-    const {addTran,transactions,visable,newId} = useContext(GlobalContext)
+    const {addTran,transactions,visible,newId} = useContext(GlobalContext)
     const [sign, setSign] = useState(1);
     const [alert, setAlert] = useState('');
     
 
     return ( 
-        <div className={`w-full px-2 h-full flex-1 m-2 shadow-lg duration-300 md:px-0 md:h-fit backdrop-blur-md bg-[#0f58425e] md:bg-transparent md:backdrop-blur-0 flex items-center justify-center top-0 md:top-auto left-0 md:left-auto fixed md:relative md:opacity-100 ${visable?'opacity-100':'opacity-0 '} `}>
+        <div className={`w-full px-2 h-full flex-1 m-2 shadow-lg duration-300 md:px-0 md:h-fit backdrop-blur-md bg-[#0f58425e] md:bg-transparent md:backdrop-blur-0 flex items-center justify-center top-0 md:top-auto left-0 md:left-auto fixed md:relative md:opacity-100 ${visible?'opacity-100':'opacity-0 '} `}>
 
             <div className={`md:flex duration-700 h-[50vh]  md:h-fit w-full border-t-2 justify-center  flex flex-col p-4 bg-white rounded-lg`}>
                     

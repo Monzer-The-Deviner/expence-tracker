@@ -7,9 +7,16 @@ export const GlobalProvider = ({children})=>{
     const [transactions, setTransactions] = useState([]);
     const [dates, setDates] = useState([]);
     const [categories, setCategories] = useState([]);
-    const [visable, setVisable] = useState(false);
+    const [visible, setvisible] = useState(false);
     const [color, setColor] = useState('bg-green-600');
-    
+    const [data, setData] = useState({
+        transNumber: { visible: true, data1: [],data2: [] },
+        tranAmount: { visible: true, data1: [],data2: [] },
+        incomesNum: { visible: true, data1: [],data2: [] },
+        incomesAmount: { visible: true, data1: [],data2: [] },
+        expNumber: { visible: true, data1: [],data2: [] },
+        expAmount: { visible: true, data1: [],data2: []}
+    });
     
     //global functions
     const addTran =(newTran)=>{
@@ -44,19 +51,28 @@ export const GlobalProvider = ({children})=>{
         return id
     }
 
+    const changeVisibility = (prop) => {
+        const updatedData = { ...data, [prop]: { ...data[prop], visible: !data[prop].visible } };
+        setData(updatedData);
+        console.log(data)
+        
+    };
     return(
         <GlobalContext.Provider value={{
             transactions,
             dates,
-            visable,
+            visible,
             color,
             categories,
+            data,
             addTran,
             delTran,
-            setVisable,
+            setvisible,
             setColor,
             setCategories,
-            newId
+            newId,
+            changeVisibility,
+            setData
 
         }}>
             {children}

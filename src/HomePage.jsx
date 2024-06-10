@@ -4,7 +4,7 @@ import { GlobalContext } from "./cotext/GlobalProvider";
 
 const HomePage = () => {
    
-    const {transactions,dates,setVisable,visable} = useContext(GlobalContext)
+    const {transactions,dates,setvisible,visible} = useContext(GlobalContext)
     const filteredTrans = (date)=>{
         if (!date || typeof date !== 'object') {
             return [];
@@ -43,8 +43,8 @@ const HomePage = () => {
         <NewTransactionForm />
         </div >
         <button 
-        onClick={()=>setVisable(opacity=>!opacity)}
-        className={`md:invisible rounded-full text-6xl ${visable?'opacity-0':'opacity-100'} bg-[#2C5056] aspect-square w-16 text-white fixed right-4 bottom-20`}>+</button>
+        onClick={()=>setvisible(opacity=>!opacity)}
+        className={`md:invisible rounded-full text-6xl ${visible?'opacity-0':'opacity-100'} bg-[#2C5056] aspect-square w-16 text-white fixed right-4 bottom-20`}>+</button>
         </>
      );
 }

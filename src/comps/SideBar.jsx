@@ -17,7 +17,7 @@ const SideBar = () => {
                 <Link to='/' ><img src={homeIcon} alt="home Icon" className="w-6 invert" /></Link>
                 <Link to={'/categories'}><img src={categoriesIcon} alt="categories Icon" className="w-6 invert" /></Link>
                 <Link to='/analitics'> <img src={reportsIcon} alt="reports Icon" className="w-6 invert" /></Link>
-                <Link to={'/sittings'}><img src={sittingsIcon} alt="sittings Icon" className="w-6 invert" /></Link>
+                <Link to={'/settings'}><img src={sittingsIcon} alt="sittings Icon" className="w-6 invert" /></Link>
             </div>
 
             <img src={profileImage} alt="profile pictue" className="rounded-full w-6 " />
