@@ -5,7 +5,14 @@ import { GlobalContext } from "./cotext/GlobalProvider";
 const AnaliticsPage = () => {
     const { transactions,data, setData} = useContext(GlobalContext);
     const [pioriod, setPioriod] = useState('week');
-    let updatedData ={}
+    const updateData = (data1,data2)=>{
+        const updataedData ={}
+        Object.keys(data).forEach((element,index) => {
+            updataedData[element] = {...data[element],data1:data1[index],data2:data2[index]}
+        });
+        console.log(updataedData);
+        setData(updataedData)
+    }
 
     useEffect(() => {
         const date = new Date();
@@ -52,7 +59,7 @@ const AnaliticsPage = () => {
         const prevIncomesAmount = prevPioriod.map(el => el.amounts.filter(a => a > 0).reduce((p, c) => p + c, 0));
         const prevExpNumber = prevPioriod.map(el => el.amounts.filter(a => a < 0).length);
         const prevExpAmount = prevPioriod.map(el => el.amounts.filter(a => a < 0).reduce((p, c) => p + c, 0));
-            console.log(data.transNumber.visible);
+        updateData([transNumber,tranAmount,incomesNum,incomesAmount,expNumber,expAmount],[prevTransNumber,prevTranAmount,prevIncomesNum,prevIncomesAmount,prevExpNumber,prevIncomesAmount,prevExpAmount])    
         //update the state data based on those vars
         
         

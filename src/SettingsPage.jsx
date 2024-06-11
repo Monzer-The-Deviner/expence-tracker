@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import profilePicture from './Assets/078010b6833975f5883eae3c4e07ae1f.jpg';
 import { GlobalContext } from './cotext/GlobalProvider';
 
+
 const SettingsPage = () => {
     const accounts = [
         { username: 'John Doe', email: 'haha@example.com', picture: profilePicture },
@@ -45,6 +46,11 @@ const SettingsPage = () => {
     const { data, changeVisibility } = useContext(GlobalContext);
     const analyticsList = Object.keys(data);
 
+    const clearData = ()=>{
+        analyticsList.map(prop=>
+            localStorage.clear(prop)
+            )
+    }
     const handleSubmit = e=>{
         e.preventDefault()
         console.log(document.querySelector('#feedbackInput').value)
@@ -83,6 +89,13 @@ const SettingsPage = () => {
                 </div>
             </section>
 
+            <section className='flex flex-col'>
+                <h3>Backup and restore data</h3>
+
+                    <button 
+                    onClick={clearData}
+                    className='flex justify-center items-center py-2 px-1 rounded-md bg-red-600 text-white'>clear data</button>
+            </section>
             <div className='w-full flex gap-8 flex-col  md:flex-row justify-between'>
                 <section className='flex flex-col gap-8 md:max-w-[40%]'>
                     <h3>Analytics Details</h3>

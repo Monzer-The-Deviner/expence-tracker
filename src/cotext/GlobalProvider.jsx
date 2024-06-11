@@ -19,11 +19,6 @@ export const GlobalProvider = ({children})=>{
             console.log(error);
         }
     }
-    const savePropsToStorage = (obj)=>{
-        const objKeys = Object.keys(obj).map(key=>localStorage.setItem(key,obj[key]))
-        console.log(objKeys);
-        return  JSON.parse(objKeys)
-    }
 
 
     //Global states 
@@ -88,8 +83,10 @@ export const GlobalProvider = ({children})=>{
     saveToStorage('transactions',transactions)
     saveToStorage('dates',dates)
     saveToStorage('categories',categories)
-    //savePropsToStorage(data)
-    },[transactions]) 
+    Object.entries(data).map(([key,value])=>
+        saveToStorage(key,value)
+    )
+    },[transactions,categories,data,dates]) 
     return(
         <GlobalContext.Provider value={{
             transactions,
