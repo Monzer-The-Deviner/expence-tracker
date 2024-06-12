@@ -4,7 +4,7 @@ import NewCategory from "./comps/newCategory";
 import { GlobalContext } from "./cotext/GlobalProvider";
 
 const categoriesPage = () => {
-    const {categories,transactions}=useContext(GlobalContext)
+    const {categories,transactions,theme}=useContext(GlobalContext)
     const [selectedCateg, setSelectedCateg] = useState('') 
     const filterdTransactions = transactions.filter(tran=>tran.category==selectedCateg)
     return ( 
@@ -17,12 +17,12 @@ const categoriesPage = () => {
                         <div className="flex-1 m-1 rounded-lg bg-green-600 flex"></div>
                         <div className="flex-1  m-1 rounded-lg bg-green-600 flex"></div>
                     </div>
-                    {categories.map(categ=>
+                    {categories.map((categ,i)=>
                     <div 
-                    key={categ.id}
+                    key={i}
                     onClick={()=>setSelectedCateg(categ.name)}
-                    className=" h-16 m-1 flex rounded-md bg-white shadow-md">
-                        <h1 className={`aspect-square text-white ${categ.color} rounded-md text-4xl text-center flex justify-center items-center `}>70</h1>
+                    className={` h-16 m-1 flex rounded-md ${theme.bgFill2} shadow-md`}>
+                        <h1 className={`aspect-square ${theme.text2nd} ${categ.color} rounded-md text-4xl text-center flex justify-center items-center `}>70</h1>
                     </div>)}
 
                 </div>

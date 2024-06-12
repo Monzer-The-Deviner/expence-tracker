@@ -1,16 +1,19 @@
 import { BrowserRouter as Router, Routes,Route } from "react-router-dom"; 
-import {GlobalProvider} from "./cotext/GlobalProvider";
+import {GlobalContext, GlobalProvider} from "./cotext/GlobalProvider";
 import {SideBar} from './comps'
-
+//pages
 import HomePage from './HomePage'
 import CategoriesPage from './CategoriesPage'
 import AnaliticsPage from './AnaliticsPage'
 import SettingsPage from './SettingsPage'
+import { useContext } from "react";
 const App = () => {
+  const {theme}=useContext(GlobalContext)
+  console.log(theme);
   return(
-    <GlobalProvider>
+   
     <Router>
-    <div className=" flex  bg-slate-100 min-h-[100vh] pb-16 justify-center">
+    <div className={ `flex ${theme.text1st} ${theme.bgFill} min-h-[100vh] pb-16 justify-center`}>
       <div className="w-full p-2 md:w-3/4">
         <Routes>
             <Route path="/" element ={<HomePage /> } />
@@ -23,7 +26,7 @@ const App = () => {
 
     </div>
     </Router>
-    </GlobalProvider>
+    
   );
 }
  

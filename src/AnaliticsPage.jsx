@@ -3,7 +3,7 @@ import Chart from "./comps/chart";
 import { GlobalContext } from "./cotext/GlobalProvider";
 
 const AnaliticsPage = () => {
-    const { transactions,data, setData} = useContext(GlobalContext);
+    const { transactions,data, setData,theme} = useContext(GlobalContext);
     const [pioriod, setPioriod] = useState('week');
     const updateData = (data1,data2)=>{
         const updataedData ={}
@@ -70,7 +70,7 @@ const AnaliticsPage = () => {
         <div className="flex flex-col">
             {analisticsList.map(([key, element], index) => (
                 element.visible && (
-                    <div key={index} className={`rounded-md items-center justify-between mb-2 flex flex-col ${(index + 1) % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} shadow-md h-32 bg-white`}>
+                    <div key={index} className={`rounded-md items-center justify-between mb-2 flex flex-col ${(index + 1) % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} shadow-md h-32 ${theme.bgFill2}`}>
                         <div className="md:w-[48%] rounded-md bg-emerald-700">
                             <h1>{element.data}</h1>
                         </div>

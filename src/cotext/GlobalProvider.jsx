@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import {useState, createContext } from "react";
-import { json } from "react-router-dom";
+import { themes } from "../Assets/theme";
+
+
 export const GlobalContext = createContext()
 
 
@@ -13,7 +15,7 @@ export const GlobalProvider = ({children})=>{
     const restoreFromStorage = (key)=>{
         try {
             const value = localStorage.getItem(key)
-            console.log(value);
+            ;
             return value? JSON.parse(value):null
         } catch (error) {
             console.log(error);
@@ -35,7 +37,8 @@ export const GlobalProvider = ({children})=>{
         expNumber:restoreFromStorage('expNumber')|| { visible: true, data1: [],data2: [] },
         expAmount: restoreFromStorage('expAmount')||{ visible: true, data1: [],data2: []}
     });
-    
+    const [theme, setTheme] = useState(themes[0]);
+
     //global functions
     
     
@@ -78,7 +81,11 @@ export const GlobalProvider = ({children})=>{
             
         };
 
-    
+        const handleChoose = (theme)=>{
+            setTheme(theme)
+        }
+
+
     useEffect(()=>{
     saveToStorage('transactions',transactions)
     saveToStorage('dates',dates)
@@ -86,7 +93,7 @@ export const GlobalProvider = ({children})=>{
     Object.entries(data).map(([key,value])=>
         saveToStorage(key,value)
     )
-    },[transactions,categories,data,dates]) 
+    },[transactions,categories,data]) 
     return(
         <GlobalContext.Provider value={{
             transactions,
@@ -95,6 +102,7 @@ export const GlobalProvider = ({children})=>{
             color,
             categories,
             data,
+            theme,
             addTran,
             delTran,
             setvisible,
@@ -104,7 +112,9 @@ export const GlobalProvider = ({children})=>{
             changeVisibility,
             setData,
             saveToStorage,
-            restoreFromStorage
+            restoreFromStorage,
+            handleChoose,
+
 
         }}>
             {children}

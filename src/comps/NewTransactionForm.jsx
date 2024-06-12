@@ -5,20 +5,20 @@ import Transaction from "./Transaction";
 const NewTransactionForm = () => {
     const [Text, setText] = useState('');
     const [Amount, setAmount] = useState('');
-    const {addTran,transactions,visible,newId} = useContext(GlobalContext)
+    const {addTran,visible,newId,theme,categories} = useContext(GlobalContext)
     const [sign, setSign] = useState(1);
     const [alert, setAlert] = useState('');
-    
+    const [now, setNow] = useState(true);
 
     return ( 
         <div className={`w-full px-2 h-full flex-1 m-2 shadow-lg duration-300 md:px-0 md:h-fit backdrop-blur-md bg-[#0f58425e] md:bg-transparent md:backdrop-blur-0 flex items-center justify-center top-0 md:top-auto left-0 md:left-auto fixed md:relative md:opacity-100 ${visible?'opacity-100':'opacity-0 '} `}>
 
-            <div className={`md:flex duration-700 h-[50vh]  md:h-fit w-full border-t-2 justify-center  flex flex-col p-4 bg-white rounded-lg`}>
+            <div className={`md:flex duration-700 h-[50vh]  md:h-fit w-full justify-center  flex flex-col p-4 ${theme.bgFill2} gap-2 rounded-lg`}>
                     
-                    <div className="flex flex-row">
+                    <div className="gap-2 flex flex-row">
                     <input
                         id="distany"  
-                        className=""
+                        className={`rounded-md border p-1 ${theme.bgFill} border-gray-500 `}
                         type="text"
                         placeholder="where from/to"
                         value={Text}
@@ -28,22 +28,49 @@ const NewTransactionForm = () => {
                             }}
                             />
                     <select 
-                        className="flex-1 rounded-sm "
+                        className={`flex-1 rounded-md border border-gray-500 ${theme.bgFill} `} 
                         onChange={e=> {
                             if (e.target.value == 'expeinces'){setSign(-1)}
                             else if (e.target.value == 'income'){setSign(1)}
                         }}
                     >
-                        <option className="text-green-500 focus:bg-inherit" value="income">income</option>
-                        <option className="text-red-500"  value="expeinces">expeinces</option>
+                        <option className="bg-green-500  focus:bg-inherit" value="income">income</option>
+                        <option className="bg-red-500"  value="expeinces">expeinces</option>
                     </select>
                     </div>
+                    <div className="flex gap-1 flex-row">
+                        <div className="flex-col flex">
+                            <h2 className={theme.text1st} >Transaction time:</h2>
+                            <div className="flex-row flex gap-2">
+                                <div className="flex-row flex gap-1">
+                                    <input checked={now} value={now} onChange={()=>setNow(prev=>!prev)}  type="checkbox" name=""  />
+                                    <span>Now?</span>
+                                </div>
 
+                                    <input 
+                                    disabled={now}
+                                    className={`flex-1 rounded-md border border-gray-500 ${theme.bgFill} `} 
+                                    type="date" name="" id="" />
+                                </div>
+                        </div>
+                        <div className="flex-1 flex justify-between flex-col">
+                            <h3>categories</h3>
+                            <select
+                            className={`flex-1 rounded-md border border-gray-500 ${theme.bgFill} `} 
+                            name="" id="">
+                                {categories.length==0&&  <option>no categories...</option>}
+                                {categories.map((categ,index)=>{
+                                    <option key={index} value={categ}>{categ.name}</option>
+                                }
+                                )}
+                            </select>
+                        </div>
+                    </div>
                     
                         {/* amount */}
                     <div>
                     <input 
-                    className="w-full my-2"
+                    className={`rounded-md border p-1 ${theme.bgFill} border-gray-500 w-full`}
                     type="number"
                     placeholder="the amount"
                     value={Amount}
@@ -58,7 +85,7 @@ const NewTransactionForm = () => {
                     </div>
                         {/* submit button */}
                     <button 
-                        className="py-1 hover:shadow-lg md:hover:text-xl border-2 duration-500 bg-green-500 text-white text-lg rounded-md"
+                        className={`py-1 hover:shadow-lg md:hover:text-xl border-2 duration-500 ${theme.buttonBg1} ${theme.buttonText1} text-lg rounded-md`}
                         onClick={()=>{
                         const date = new Date()
                         const tranTime = {
