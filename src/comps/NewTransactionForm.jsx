@@ -1,6 +1,6 @@
 import { useState ,useContext } from "react";
-import { GlobalContext } from "../cotext/GlobalProvider";
-import Transaction from "./Transaction";
+import { GlobalContext } from "../context/GlobalProvider";
+
 
 const NewTransactionForm = () => {
     const [Text, setText] = useState('');

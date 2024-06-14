@@ -1,6 +1,6 @@
 
 import {useState, useContext } from "react";
-import { GlobalContext } from "../cotext/GlobalProvider";
+import { GlobalContext } from "../context/GlobalProvider";
 import logo from "../Assets/chart-line.svg"
 const Header = ({task}) => {
     const {transactions,theme} = useContext(GlobalContext);

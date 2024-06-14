@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { NewTransactionForm, Header, Transaction, } from "./comps";
-import { GlobalContext } from "./cotext/GlobalProvider";
+import { GlobalContext } from "./context/GlobalProvider";
 
 const HomePage = () => {
    

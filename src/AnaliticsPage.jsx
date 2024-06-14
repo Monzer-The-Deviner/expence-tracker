@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import { useContext, useState, useEffect } from "react";
-import Chart from "./comps/chart";
-import { GlobalContext } from "./cotext/GlobalProvider";
+import Chart from "./comps/Chart";
+import { GlobalContext } from "./context/GlobalProvider";
 
 const AnaliticsPage = () => {
     const { transactions,data, setData,theme} = useContext(GlobalContext);

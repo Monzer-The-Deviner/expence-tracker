@@ -6,7 +6,7 @@ import categoriesIcon from '../Assets/chart-pie.svg'
 import logo from '../Assets/chart-simple.svg'
 import { Link } from 'react-router-dom'
 import { useContext } from 'react'
-import { GlobalContext } from '../cotext/GlobalProvider'
+import { GlobalContext } from '../context/GlobalProvider'
 
 const SideBar = () => {
     const{theme} = useContext(GlobalContext)

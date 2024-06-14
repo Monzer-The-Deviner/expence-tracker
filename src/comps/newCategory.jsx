@@ -1,5 +1,5 @@
 import { useContext,useState } from "react";
-import { GlobalContext } from "../cotext/GlobalProvider";
+import { GlobalContext } from "../context/GlobalProvider";
 
 const NewCategory = () => {
     const [name, setName] = useState('');

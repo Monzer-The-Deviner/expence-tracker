@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import {useState, createContext } from "react";
 import { themes } from "../Assets/theme";
@@ -93,7 +94,7 @@ export const GlobalProvider = ({children})=>{
     Object.entries(data).map(([key,value])=>
         saveToStorage(key,value)
     )
-    },[transactions,categories,data]) 
+    },[transactions,dates,categories,data]) 
     return(
         <GlobalContext.Provider value={{
             transactions,

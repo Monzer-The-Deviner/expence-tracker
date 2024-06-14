@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import profilePicture from './Assets/078010b6833975f5883eae3c4e07ae1f.jpg';
-import { GlobalContext } from './cotext/GlobalProvider';
+import { GlobalContext } from './context/GlobalProvider';
 import { themes } from './Assets/theme';
 
 const SettingsPage = () => {

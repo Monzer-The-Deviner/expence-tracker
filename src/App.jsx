@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes,Route } from "react-router-dom"; 
-import {GlobalContext, GlobalProvider} from "./cotext/GlobalProvider";
+import {GlobalContext, GlobalProvider} from "./context/GlobalProvider";
 import {SideBar} from './comps'
 //pages
 import HomePage from './HomePage'

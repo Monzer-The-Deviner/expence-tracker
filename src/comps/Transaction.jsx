@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useState, useContext  } from "react"
 import deleteIcon from "../Assets/trash-can.svg"
-import { GlobalContext } from "../cotext/GlobalProvider"
+import { GlobalContext } from "../context/GlobalProvider"
 
 const Transaction = ({transaction,dateTrans,date}) => {
     const { delTran,theme} = useContext(GlobalContext)
