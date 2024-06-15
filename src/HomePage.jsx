@@ -21,8 +21,8 @@ const HomePage = () => {
         <Header />
         <div className={`flex w-full flex-row pt-2 ${theme.text1st}`}>
         <div className="flex-1 flex flex-col justify-center items-center"> 
-            {dates.map(date=>(
-                <div className="flex justify-center flex-col items-center w-full" key={date.id}>
+            {dates.map((date,index)=>(
+                <div className="flex justify-center flex-col items-center w-full" key={index}>
 
                     <div className={`px-2 py-1 ${theme.bg3rd} text-white text-sm justify-self-center w-fit h-fit rounded-full shadow-md  ${theme.text2nd}`}>
                         {date.month+1}/{date.day}/{date.year}
