@@ -1,16 +1,11 @@
 import { useContext } from 'react';
-import profilePicture from './Assets/078010b6833975f5883eae3c4e07ae1f.jpg';
 import { GlobalContext } from './context/GlobalProvider';
 import { themes } from './Assets/theme';
+// import { fetchData ,uploadData} from './fireBase';
 
 const SettingsPage = () => {
-    const accounts = [
-        { username: 'John Doe', email: 'haha@example.com', picture: profilePicture },
-        { username: 'James Doe', email: 'looool@example.com', picture: profilePicture },
-    ];
 
-
-    const { data, changeVisibility,handleChoose,theme } = useContext(GlobalContext);
+    const {data, changeVisibility,handleChoose,theme,user} = useContext(GlobalContext);
     const analyticsList = Object.keys(data);
 
     const clearData = ()=>{
@@ -28,17 +23,16 @@ const SettingsPage = () => {
         <div className='w-full flex gap-8 flex-col'>
             <section className="gap-2 flex flex-col mt-16 md:w-1/2">
                 <h3>Accounts:</h3>
-                {accounts.map((account, index) => (
-                    <div className={`flex ${theme.bgFill2} shadow-md rounded-sm`} key={index}>
-                        <div>
-                            <img src={account.picture} className='rounded-full w-8 aspect-square m-1' alt='Profile' />
-                        </div>
-                        <div className='flex flex-col'>
-                            <h2>{account.username}</h2>
-                            <span>{account.email}</span>
-                        </div>
-                    </div>
-                ))}
+                {user&&  <div className={`flex ${theme.bgFill2} shadow-md rounded-sm`}>
+                            <div>
+                                <img src={user.picture} className='rounded-full w-8 aspect-square m-1' alt='Profile' />
+                            </div>
+                            <div className='flex flex-col'>
+                                <h2>{user.username}</h2>
+                                <span>{user.email}</span>
+                            </div>
+                        </div>}
+                
             </section>
 
             <section>
@@ -59,8 +53,20 @@ const SettingsPage = () => {
                 </div>
             </section>
 
-            <section className='flex flex-col'>
-                <h3>Backup and restore data</h3>
+            <section className='flex gap-3 flex-col'>
+                {/* <h3>Backup and restore data</h3>
+
+                <div className='flex gap-2 w-full'>
+                    <button 
+                    onClick={()=>fetchData('transactions',setTransactions,setOfflineData)}
+                    className= {`border-green-500 border-2 flex-1 flex justify-center ${theme.bg1Fill2} rounded-md px-4 py-2`} >restore transactions</button>
+                    <button 
+                    onClick={()=>{
+                        offlineData.map(item=>uploadData(item.coll,item.data,setOfflineData,offlineData)) 
+                        // uploadData('data',data)
+                    }}
+                    className= {`border-green-500 border-2 flex-1 justify-center flex ${theme.bg1Fill2} rounded-md px-4 py-2`}  >Backup data</button>
+                </div> */}
 
                     <button 
                     onClick={clearData}
