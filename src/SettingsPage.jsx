@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { GlobalContext } from './context/GlobalProvider';
+import { GlobalContext } from './logic/GlobalProvider';
 import { themes } from './Assets/theme';
 // import { fetchData ,uploadData} from './fireBase';
 

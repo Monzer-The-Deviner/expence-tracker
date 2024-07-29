@@ -1,15 +1,20 @@
+/* eslint-disable react/prop-types */
 import Transaction from './Transaction'
-import { GlobalContext } from '../context/GlobalProvider';
+import { GlobalContext } from '../logic/GlobalProvider';
 import { useContext } from 'react'
 
-const TrasactionList = () => {
+const TransactionList = ({date}) => {
     const {transactions} = useContext(GlobalContext)
-
+    const fillterdTrans= transactions.filter(tran=>{
+      const {month,day ,year} = tran.tranTime
+      const stringDate = `${month}-${day}-${year}`
+      return date==stringDate
+    })
     return ( 
-        <div className='flex-col'>
-          { transactions.map(trans=> 
+        <div className='w-full gap-2 flex flex-col'>
+          <div className='bg-slate-700 self-center px-2 text-white rounded-full w-fit'>{date}</div>
+          {fillterdTrans&& fillterdTrans.map(trans=> 
           <div key={trans.id} >
-            {/* {transactions.length>0&& transactions[transactions.length-1].tranTime.day!==trans.tranTime.day && <div>{trans.tranTime.day}</div> } */}
             <Transaction transaction={trans}/>
           </div>
             )}
@@ -17,4 +22,4 @@ const TrasactionList = () => {
      );
 }
  
-export default TrasactionList;
+export default TransactionList;

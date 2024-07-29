@@ -1,7 +1,7 @@
 import { useContext,useState } from "react";
 import { Transaction } from "./comps";
 import NewCategory from "./comps/newCategory";
-import { GlobalContext } from "./context/GlobalProvider";
+import { GlobalContext } from "./logic/GlobalProvider";
 
 const categoriesPage = () => {
     const {categories,transactions,theme}=useContext(GlobalContext)

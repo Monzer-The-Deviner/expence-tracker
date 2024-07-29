@@ -1,20 +1,32 @@
 import { useState ,useContext } from "react";
-import { GlobalContext } from "../context/GlobalProvider";
+import { GlobalContext } from "../logic/GlobalProvider";
 
 
 const NewTransactionForm = () => {
     const [Text, setText] = useState('');
     const [Amount, setAmount] = useState('');
-    const {addTran,visible,newId,theme,categories} = useContext(GlobalContext)
+    const {addTran,visible,setvisible,newId,theme,categories} = useContext(GlobalContext)
     const [sign, setSign] = useState(1);
     const [alert, setAlert] = useState('');
     const [now, setNow] = useState(true);
 
     return ( 
-        <div className={`w-full px-2 h-full flex-1 m-2 shadow-lg duration-300 md:px-0 md:h-fit backdrop-blur-md bg-[#0f58425e] md:bg-transparent md:backdrop-blur-0 flex items-center justify-center top-0 md:top-auto left-0 md:left-auto fixed md:relative md:opacity-100 ${visible?'opacity-100':'opacity-0 '} `}>
+        <div className={`w-full px-2 h-full flex-1 scroll-p-4 shadow-lg duration-300 md:px-0 md:h-fit backdrop-blur-sm bg-[#0a3b2c9a] md:bg-transparent md:backdrop-blur-0  items-center justify-center top-0 md:top-auto left-0 md:left-auto fixed md:relative md:opacity-100 ${visible?'opacity-100 flex':'opacity-0 invisible'} `}>
 
-            <div className={`md:flex duration-700 h-[50vh]  md:h-fit w-full justify-center  flex flex-col p-4 ${theme.bgFill2} gap-2 rounded-lg`}>
-                    
+            <form className={`duration-700 h-[50vh]  md:h-fit w-full  flex flex-col  ${theme.bgFill2} gap-4 rounded-lg`}>
+
+                <div className={`bg-green-500 text-white justify-between flex p-2 text-lg pl-4 rounded-t-lg`}>
+                    <span>New Transaction</span>
+                
+                        <button
+                        className="self-end text-white"
+                        type="button"
+                        onClick={()=>setvisible(false)}>
+                            {'back >'}
+                        </button>
+                </div>
+                <div className="flex-col justify-between flex px-4 flex-1">
+
                     <div className="gap-2 flex flex-row">
                     <input
                         id="distany"  
@@ -86,7 +98,8 @@ const NewTransactionForm = () => {
                         {/* submit button */}
                     <button 
                         className={`py-1 hover:shadow-lg md:hover:text-xl border-2 duration-500 ${theme.buttonBg1} ${theme.buttonText1} text-lg rounded-md`}
-                        onClick={()=>{
+                        onClick={(e)=>{
+                        e.preventDefault()
                         const date = new Date()
                         const tranTime = {
                             Hours:date.getHours()>12? date.getHours()-12:date.getHours(),
@@ -112,7 +125,8 @@ const NewTransactionForm = () => {
                         }>add
                     </button>
                     <p className="text-red-500 ">{alert}</p>
-            </div>
+                </div>
+            </form>
         </div>
      );
 }

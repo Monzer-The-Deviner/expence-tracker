@@ -1,0 +1,4502 @@
+[
+    {
+        "id": 1,
+        "amount": 461.41,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 36,
+            "secs": 1
+        },
+        "text": "Education",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 2,
+        "amount": 434.08,
+        "tranTime": {
+            "day": 16,
+            "month": 6,
+            "year": 2023,
+            "hours": 2,
+            "mins": 21,
+            "secs": 41
+        },
+        "text": "Utilities",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 3,
+        "amount": 913.52,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 34,
+            "secs": 33
+        },
+        "text": "Healthcare",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 4,
+        "amount": 495.2,
+        "tranTime": {
+            "day": 14,
+            "month": 6,
+            "year": 2023,
+            "hours": 20,
+            "mins": 3,
+            "secs": 6
+        },
+        "text": "Education",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 5,
+        "amount": 379.54,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 0,
+            "secs": 1
+        },
+        "text": "Education",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 6,
+        "amount": 77.35,
+        "tranTime": {
+            "day": 21,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 1,
+            "secs": 9
+        },
+        "text": "Miscellaneous",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 7,
+        "amount": 511.7,
+        "tranTime": {
+            "day": 5,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 58,
+            "secs": 17
+        },
+        "text": "Miscellaneous",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 8,
+        "amount": 613.78,
+        "tranTime": {
+            "day": 16,
+            "month": 6,
+            "year": 2023,
+            "hours": 23,
+            "mins": 32,
+            "secs": 20
+        },
+        "text": "Utilities",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 9,
+        "amount": 149.38,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 11,
+            "secs": 55
+        },
+        "text": "Travel",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 10,
+        "amount": 726.69,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 22,
+            "secs": 12
+        },
+        "text": "Utilities",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 11,
+        "amount": 232.85,
+        "tranTime": {
+            "day": 1,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 2,
+            "secs": 4
+        },
+        "text": "Gas",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 12,
+        "amount": 662.57,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 22,
+            "secs": 51
+        },
+        "text": "Dining Out",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 13,
+        "amount": 266.83,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 15,
+            "secs": 16
+        },
+        "text": "Groceries",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 14,
+        "amount": 158.24,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 42,
+            "secs": 3
+        },
+        "text": "Rent",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 15,
+        "amount": 19.9,
+        "tranTime": {
+            "day": 14,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 10,
+            "secs": 55
+        },
+        "text": "Groceries",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 16,
+        "amount": 922.54,
+        "tranTime": {
+            "day": 4,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 19,
+            "secs": 58
+        },
+        "text": "Gas",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 17,
+        "amount": 387.22,
+        "tranTime": {
+            "day": 12,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 33,
+            "secs": 6
+        },
+        "text": "Travel",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 18,
+        "amount": 720.41,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 56,
+            "secs": 46
+        },
+        "text": "Groceries",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 19,
+        "amount": 926.24,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 54,
+            "secs": 13
+        },
+        "text": "Dining Out",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 20,
+        "amount": 245.9,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 2,
+            "mins": 25,
+            "secs": 49
+        },
+        "text": "Miscellaneous",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 21,
+        "amount": 422.48,
+        "tranTime": {
+            "day": 12,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 53,
+            "secs": 9
+        },
+        "text": "Entertainment",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 22,
+        "amount": 426.6,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 27,
+            "secs": 9
+        },
+        "text": "Dining Out",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 23,
+        "amount": 162.1,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 21,
+            "secs": 32
+        },
+        "text": "Travel",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 24,
+        "amount": 82.97,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 25,
+            "secs": 32
+        },
+        "text": "Healthcare",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 25,
+        "amount": 461.54,
+        "tranTime": {
+            "day": 21,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 17,
+            "secs": 55
+        },
+        "text": "Rent",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 26,
+        "amount": 678.47,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 7,
+            "mins": 35,
+            "secs": 57
+        },
+        "text": "Groceries",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 27,
+        "amount": 141.5,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 52,
+            "secs": 6
+        },
+        "text": "Travel",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 28,
+        "amount": 319.72,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 36,
+            "secs": 22
+        },
+        "text": "Clothing",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 29,
+        "amount": 941.03,
+        "tranTime": {
+            "day": 24,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 20,
+            "secs": 36
+        },
+        "text": "Travel",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 30,
+        "amount": 899.12,
+        "tranTime": {
+            "day": 4,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 46,
+            "secs": 52
+        },
+        "text": "Healthcare",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 31,
+        "amount": 881.53,
+        "tranTime": {
+            "day": 4,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 38,
+            "secs": 23
+        },
+        "text": "Groceries",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 32,
+        "amount": 714.51,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 24,
+            "secs": 43
+        },
+        "text": "Education",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 33,
+        "amount": 322.8,
+        "tranTime": {
+            "day": 24,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 31,
+            "secs": 0
+        },
+        "text": "Rent",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 34,
+        "amount": 67.1,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 0,
+            "secs": 46
+        },
+        "text": "Education",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 35,
+        "amount": 311.11,
+        "tranTime": {
+            "day": 1,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 50,
+            "secs": 49
+        },
+        "text": "Clothing",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 36,
+        "amount": 960.69,
+        "tranTime": {
+            "day": 3,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 13,
+            "secs": 36
+        },
+        "text": "Gas",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 37,
+        "amount": 143.58,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 25,
+            "secs": 59
+        },
+        "text": "Entertainment",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 38,
+        "amount": 837.17,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 45,
+            "secs": 16
+        },
+        "text": "Clothing",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 39,
+        "amount": 945.88,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 7,
+            "secs": 32
+        },
+        "text": "Healthcare",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 40,
+        "amount": 681.88,
+        "tranTime": {
+            "day": 1,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 26,
+            "secs": 45
+        },
+        "text": "Groceries",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 41,
+        "amount": 609.04,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 42,
+            "secs": 48
+        },
+        "text": "Entertainment",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 42,
+        "amount": 417.15,
+        "tranTime": {
+            "day": 5,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 23,
+            "secs": 15
+        },
+        "text": "Dining Out",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 43,
+        "amount": 227.75,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 23,
+            "mins": 54,
+            "secs": 53
+        },
+        "text": "Healthcare",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 44,
+        "amount": 164.66,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 22,
+            "secs": 10
+        },
+        "text": "Dining Out",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 45,
+        "amount": 258.06,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 55,
+            "secs": 7
+        },
+        "text": "Rent",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 46,
+        "amount": 804.78,
+        "tranTime": {
+            "day": 27,
+            "month": 6,
+            "year": 2023,
+            "hours": 7,
+            "mins": 2,
+            "secs": 27
+        },
+        "text": "Dining Out",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 47,
+        "amount": 444.99,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 53,
+            "secs": 36
+        },
+        "text": "Healthcare",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 48,
+        "amount": 23.73,
+        "tranTime": {
+            "day": 8,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 15,
+            "secs": 44
+        },
+        "text": "Utilities",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 49,
+        "amount": 645.89,
+        "tranTime": {
+            "day": 13,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 44,
+            "secs": 54
+        },
+        "text": "Travel",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 50,
+        "amount": 469.36,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 39,
+            "secs": 18
+        },
+        "text": "Education",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 51,
+        "amount": 520.84,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 43,
+            "secs": 32
+        },
+        "text": "Gas",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 52,
+        "amount": 969.67,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 38,
+            "secs": 7
+        },
+        "text": "Rent",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 53,
+        "amount": 110.24,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 20,
+            "secs": 52
+        },
+        "text": "Healthcare",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 54,
+        "amount": 449.17,
+        "tranTime": {
+            "day": 14,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 39,
+            "secs": 11
+        },
+        "text": "Entertainment",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 55,
+        "amount": 660.11,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 58,
+            "secs": 50
+        },
+        "text": "Rent",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 56,
+        "amount": 540.24,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 28,
+            "secs": 22
+        },
+        "text": "Groceries",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 57,
+        "amount": 397.45,
+        "tranTime": {
+            "day": 10,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 45,
+            "secs": 19
+        },
+        "text": "Travel",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 58,
+        "amount": 132.5,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 7,
+            "secs": 10
+        },
+        "text": "Miscellaneous",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 59,
+        "amount": 252.69,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 8,
+            "secs": 6
+        },
+        "text": "Miscellaneous",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 60,
+        "amount": 0.66,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 7,
+            "secs": 29
+        },
+        "text": "Groceries",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 61,
+        "amount": 206.05,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 47,
+            "secs": 4
+        },
+        "text": "Miscellaneous",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 62,
+        "amount": 121.63,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 48,
+            "secs": 13
+        },
+        "text": "Healthcare",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 63,
+        "amount": 114.61,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 3,
+            "secs": 16
+        },
+        "text": "Travel",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 64,
+        "amount": 511.39,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 2,
+            "mins": 40,
+            "secs": 11
+        },
+        "text": "Gas",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 65,
+        "amount": 95.59,
+        "tranTime": {
+            "day": 27,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 52,
+            "secs": 28
+        },
+        "text": "Dining Out",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 66,
+        "amount": 672.26,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 6,
+            "secs": 30
+        },
+        "text": "Dining Out",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 67,
+        "amount": 403.03,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 46,
+            "secs": 7
+        },
+        "text": "Miscellaneous",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 68,
+        "amount": 395.99,
+        "tranTime": {
+            "day": 10,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 58,
+            "secs": 10
+        },
+        "text": "Rent",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 69,
+        "amount": 76.64,
+        "tranTime": {
+            "day": 25,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 7,
+            "secs": 4
+        },
+        "text": "Travel",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 70,
+        "amount": 202.76,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 30,
+            "secs": 41
+        },
+        "text": "Miscellaneous",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 71,
+        "amount": 260.74,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 33,
+            "secs": 14
+        },
+        "text": "Gas",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 72,
+        "amount": 538.23,
+        "tranTime": {
+            "day": 22,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 54,
+            "secs": 3
+        },
+        "text": "Education",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 73,
+        "amount": 769.92,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 36,
+            "secs": 20
+        },
+        "text": "Miscellaneous",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 74,
+        "amount": 676.8,
+        "tranTime": {
+            "day": 3,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 20,
+            "secs": 0
+        },
+        "text": "Entertainment",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 75,
+        "amount": 564.47,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 21,
+            "secs": 51
+        },
+        "text": "Dining Out",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 76,
+        "amount": 166.18,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 45,
+            "secs": 43
+        },
+        "text": "Groceries",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 77,
+        "amount": 982.32,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 4,
+            "secs": 40
+        },
+        "text": "Travel",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 78,
+        "amount": 189.11,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 10,
+            "secs": 15
+        },
+        "text": "Clothing",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 79,
+        "amount": 625.1,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 5,
+            "secs": 49
+        },
+        "text": "Gas",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 80,
+        "amount": 463.77,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 52,
+            "secs": 25
+        },
+        "text": "Healthcare",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 81,
+        "amount": 687.38,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 7,
+            "mins": 11,
+            "secs": 11
+        },
+        "text": "Healthcare",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 82,
+        "amount": 688.44,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 31,
+            "secs": 8
+        },
+        "text": "Utilities",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 83,
+        "amount": 869.38,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 47,
+            "secs": 38
+        },
+        "text": "Utilities",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 84,
+        "amount": 252.65,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 0,
+            "secs": 59
+        },
+        "text": "Travel",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 85,
+        "amount": 724.27,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 23,
+            "secs": 26
+        },
+        "text": "Miscellaneous",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 86,
+        "amount": 514.12,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 30,
+            "secs": 15
+        },
+        "text": "Entertainment",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 87,
+        "amount": 112.12,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 24,
+            "secs": 53
+        },
+        "text": "Healthcare",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 88,
+        "amount": 32.45,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 34,
+            "secs": 26
+        },
+        "text": "Healthcare",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 89,
+        "amount": 899.42,
+        "tranTime": {
+            "day": 22,
+            "month": 6,
+            "year": 2023,
+            "hours": 7,
+            "mins": 54,
+            "secs": 29
+        },
+        "text": "Gas",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 90,
+        "amount": 114.77,
+        "tranTime": {
+            "day": 16,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 27,
+            "secs": 48
+        },
+        "text": "Dining Out",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 91,
+        "amount": 555.76,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 7,
+            "mins": 52,
+            "secs": 43
+        },
+        "text": "Rent",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 92,
+        "amount": 830.28,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 11,
+            "secs": 21
+        },
+        "text": "Groceries",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 93,
+        "amount": 301.24,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 42,
+            "secs": 5
+        },
+        "text": "Miscellaneous",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 94,
+        "amount": 806.91,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 42,
+            "secs": 50
+        },
+        "text": "Miscellaneous",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 95,
+        "amount": 871.03,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 31,
+            "secs": 17
+        },
+        "text": "Miscellaneous",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 96,
+        "amount": 492.29,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 5,
+            "secs": 20
+        },
+        "text": "Gas",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 97,
+        "amount": 160.25,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 31,
+            "secs": 4
+        },
+        "text": "Utilities",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 98,
+        "amount": 39.11,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 0,
+            "secs": 19
+        },
+        "text": "Travel",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 99,
+        "amount": 319.08,
+        "tranTime": {
+            "day": 10,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 43,
+            "secs": 40
+        },
+        "text": "Entertainment",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 100,
+        "amount": 960.06,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 52,
+            "secs": 26
+        },
+        "text": "Entertainment",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 101,
+        "amount": 617.23,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 43,
+            "secs": 9
+        },
+        "text": "Entertainment",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 102,
+        "amount": 114.81,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 39,
+            "secs": 47
+        },
+        "text": "Education",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 103,
+        "amount": 399.74,
+        "tranTime": {
+            "day": 8,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 9,
+            "secs": 53
+        },
+        "text": "Rent",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 104,
+        "amount": 848.24,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 4,
+            "secs": 5
+        },
+        "text": "Education",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 105,
+        "amount": 482.77,
+        "tranTime": {
+            "day": 19,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 45,
+            "secs": 58
+        },
+        "text": "Travel",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 106,
+        "amount": 789.76,
+        "tranTime": {
+            "day": 8,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 43,
+            "secs": 13
+        },
+        "text": "Utilities",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 107,
+        "amount": 163.98,
+        "tranTime": {
+            "day": 22,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 35,
+            "secs": 58
+        },
+        "text": "Dining Out",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 108,
+        "amount": 138.42,
+        "tranTime": {
+            "day": 19,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 53,
+            "secs": 22
+        },
+        "text": "Clothing",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 109,
+        "amount": 701.86,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 9,
+            "secs": 54
+        },
+        "text": "Rent",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 110,
+        "amount": 355.12,
+        "tranTime": {
+            "day": 4,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 32,
+            "secs": 49
+        },
+        "text": "Dining Out",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 111,
+        "amount": 804.1,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 17,
+            "secs": 24
+        },
+        "text": "Dining Out",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 112,
+        "amount": 582.55,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 1,
+            "secs": 37
+        },
+        "text": "Clothing",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 113,
+        "amount": 767.29,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 45,
+            "secs": 55
+        },
+        "text": "Utilities",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 114,
+        "amount": 421.12,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 17,
+            "secs": 39
+        },
+        "text": "Clothing",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 115,
+        "amount": 501.57,
+        "tranTime": {
+            "day": 1,
+            "month": 6,
+            "year": 2023,
+            "hours": 7,
+            "mins": 35,
+            "secs": 37
+        },
+        "text": "Gas",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 116,
+        "amount": 626.83,
+        "tranTime": {
+            "day": 13,
+            "month": 6,
+            "year": 2023,
+            "hours": 23,
+            "mins": 17,
+            "secs": 48
+        },
+        "text": "Entertainment",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 117,
+        "amount": 20.9,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 33,
+            "secs": 48
+        },
+        "text": "Rent",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 118,
+        "amount": 255.99,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 2,
+            "mins": 3,
+            "secs": 50
+        },
+        "text": "Utilities",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 119,
+        "amount": 231.32,
+        "tranTime": {
+            "day": 3,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 25,
+            "secs": 35
+        },
+        "text": "Gas",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 120,
+        "amount": 965.27,
+        "tranTime": {
+            "day": 19,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 37,
+            "secs": 30
+        },
+        "text": "Gas",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 121,
+        "amount": 778.47,
+        "tranTime": {
+            "day": 14,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 6,
+            "secs": 22
+        },
+        "text": "Education",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 122,
+        "amount": 2.35,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 50,
+            "secs": 1
+        },
+        "text": "Groceries",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 123,
+        "amount": 593.67,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 35,
+            "secs": 23
+        },
+        "text": "Travel",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 124,
+        "amount": 990.12,
+        "tranTime": {
+            "day": 8,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 54,
+            "secs": 0
+        },
+        "text": "Gas",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 125,
+        "amount": 464.56,
+        "tranTime": {
+            "day": 24,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 51,
+            "secs": 36
+        },
+        "text": "Clothing",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 126,
+        "amount": 298.46,
+        "tranTime": {
+            "day": 21,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 9,
+            "secs": 5
+        },
+        "text": "Groceries",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 127,
+        "amount": 454.08,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 43,
+            "secs": 45
+        },
+        "text": "Clothing",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 128,
+        "amount": 230.17,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 33,
+            "secs": 30
+        },
+        "text": "Utilities",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 129,
+        "amount": 474.47,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 21,
+            "secs": 6
+        },
+        "text": "Travel",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 130,
+        "amount": 66.1,
+        "tranTime": {
+            "day": 10,
+            "month": 6,
+            "year": 2023,
+            "hours": 20,
+            "mins": 2,
+            "secs": 57
+        },
+        "text": "Utilities",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 131,
+        "amount": 866.02,
+        "tranTime": {
+            "day": 13,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 13,
+            "secs": 6
+        },
+        "text": "Miscellaneous",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 132,
+        "amount": 728.55,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 14,
+            "secs": 5
+        },
+        "text": "Rent",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 133,
+        "amount": 898.47,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 36,
+            "secs": 3
+        },
+        "text": "Education",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 134,
+        "amount": 609.01,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 37,
+            "secs": 23
+        },
+        "text": "Dining Out",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 135,
+        "amount": 258.82,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 7,
+            "mins": 21,
+            "secs": 24
+        },
+        "text": "Groceries",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 136,
+        "amount": 843.28,
+        "tranTime": {
+            "day": 21,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 17,
+            "secs": 5
+        },
+        "text": "Utilities",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 137,
+        "amount": 792.0,
+        "tranTime": {
+            "day": 25,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 8,
+            "secs": 28
+        },
+        "text": "Utilities",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 138,
+        "amount": 725.2,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 52,
+            "secs": 44
+        },
+        "text": "Utilities",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 139,
+        "amount": 498.21,
+        "tranTime": {
+            "day": 16,
+            "month": 6,
+            "year": 2023,
+            "hours": 2,
+            "mins": 19,
+            "secs": 57
+        },
+        "text": "Healthcare",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 140,
+        "amount": 920.97,
+        "tranTime": {
+            "day": 27,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 55,
+            "secs": 41
+        },
+        "text": "Entertainment",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 141,
+        "amount": 77.61,
+        "tranTime": {
+            "day": 3,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 40,
+            "secs": 27
+        },
+        "text": "Travel",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 142,
+        "amount": 247.72,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 21,
+            "secs": 30
+        },
+        "text": "Utilities",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 143,
+        "amount": 613.04,
+        "tranTime": {
+            "day": 27,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 56,
+            "secs": 41
+        },
+        "text": "Dining Out",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 144,
+        "amount": 741.44,
+        "tranTime": {
+            "day": 16,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 25,
+            "secs": 8
+        },
+        "text": "Miscellaneous",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 145,
+        "amount": 113.24,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 4,
+            "secs": 17
+        },
+        "text": "Travel",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 146,
+        "amount": 833.55,
+        "tranTime": {
+            "day": 19,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 12,
+            "secs": 27
+        },
+        "text": "Entertainment",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 147,
+        "amount": 957.38,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 25,
+            "secs": 42
+        },
+        "text": "Education",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 148,
+        "amount": 775.83,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 20,
+            "mins": 21,
+            "secs": 28
+        },
+        "text": "Miscellaneous",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 149,
+        "amount": 967.38,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 31,
+            "secs": 26
+        },
+        "text": "Miscellaneous",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 150,
+        "amount": 794.03,
+        "tranTime": {
+            "day": 5,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 39,
+            "secs": 57
+        },
+        "text": "Utilities",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 151,
+        "amount": 63.11,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 39,
+            "secs": 15
+        },
+        "text": "Gas",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 152,
+        "amount": 516.03,
+        "tranTime": {
+            "day": 25,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 40,
+            "secs": 39
+        },
+        "text": "Dining Out",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 153,
+        "amount": 533.8,
+        "tranTime": {
+            "day": 19,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 56,
+            "secs": 48
+        },
+        "text": "Miscellaneous",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 154,
+        "amount": 175.8,
+        "tranTime": {
+            "day": 5,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 14,
+            "secs": 57
+        },
+        "text": "Healthcare",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 155,
+        "amount": 233.03,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 32,
+            "secs": 41
+        },
+        "text": "Travel",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 156,
+        "amount": 371.09,
+        "tranTime": {
+            "day": 12,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 28,
+            "secs": 21
+        },
+        "text": "Dining Out",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 157,
+        "amount": 733.45,
+        "tranTime": {
+            "day": 13,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 17,
+            "secs": 1
+        },
+        "text": "Healthcare",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 158,
+        "amount": 170.78,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 37,
+            "secs": 9
+        },
+        "text": "Education",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 159,
+        "amount": 401.94,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 27,
+            "secs": 46
+        },
+        "text": "Clothing",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 160,
+        "amount": 157.34,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 41,
+            "secs": 28
+        },
+        "text": "Utilities",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 161,
+        "amount": 717.12,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 10,
+            "secs": 32
+        },
+        "text": "Education",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 162,
+        "amount": 736.16,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 14,
+            "secs": 59
+        },
+        "text": "Rent",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 163,
+        "amount": 358.91,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 11,
+            "secs": 45
+        },
+        "text": "Entertainment",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 164,
+        "amount": 976.99,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 17,
+            "secs": 54
+        },
+        "text": "Groceries",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 165,
+        "amount": 220.89,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 22,
+            "secs": 2
+        },
+        "text": "Utilities",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 166,
+        "amount": 130.36,
+        "tranTime": {
+            "day": 4,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 46,
+            "secs": 14
+        },
+        "text": "Travel",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 167,
+        "amount": 140.2,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 15,
+            "secs": 42
+        },
+        "text": "Miscellaneous",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 168,
+        "amount": 214.99,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 54,
+            "secs": 49
+        },
+        "text": "Healthcare",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 169,
+        "amount": 371.67,
+        "tranTime": {
+            "day": 5,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 2,
+            "secs": 58
+        },
+        "text": "Gas",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 170,
+        "amount": 223.88,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 53,
+            "secs": 39
+        },
+        "text": "Entertainment",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 171,
+        "amount": 760.2,
+        "tranTime": {
+            "day": 8,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 21,
+            "secs": 28
+        },
+        "text": "Clothing",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 172,
+        "amount": 185.25,
+        "tranTime": {
+            "day": 22,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 26,
+            "secs": 17
+        },
+        "text": "Utilities",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 173,
+        "amount": 742.02,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 5,
+            "secs": 35
+        },
+        "text": "Education",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 174,
+        "amount": 9.7,
+        "tranTime": {
+            "day": 3,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 16,
+            "secs": 8
+        },
+        "text": "Utilities",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 175,
+        "amount": 360.58,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 9,
+            "secs": 2
+        },
+        "text": "Clothing",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 176,
+        "amount": 940.87,
+        "tranTime": {
+            "day": 21,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 40,
+            "secs": 58
+        },
+        "text": "Miscellaneous",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 177,
+        "amount": 151.56,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 38,
+            "secs": 15
+        },
+        "text": "Education",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 178,
+        "amount": 193.18,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 58,
+            "secs": 11
+        },
+        "text": "Travel",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 179,
+        "amount": 505.2,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 15,
+            "secs": 23
+        },
+        "text": "Dining Out",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 180,
+        "amount": 710.39,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 14,
+            "secs": 15
+        },
+        "text": "Dining Out",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 181,
+        "amount": 325.9,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 26,
+            "secs": 5
+        },
+        "text": "Clothing",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 182,
+        "amount": 244.61,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 26,
+            "secs": 32
+        },
+        "text": "Education",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 183,
+        "amount": 349.24,
+        "tranTime": {
+            "day": 25,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 10,
+            "secs": 34
+        },
+        "text": "Utilities",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 184,
+        "amount": 568.57,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 16,
+            "secs": 6
+        },
+        "text": "Healthcare",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 185,
+        "amount": 573.39,
+        "tranTime": {
+            "day": 22,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 11,
+            "secs": 44
+        },
+        "text": "Clothing",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 186,
+        "amount": 687.29,
+        "tranTime": {
+            "day": 5,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 26,
+            "secs": 47
+        },
+        "text": "Clothing",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 187,
+        "amount": 978.78,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 8,
+            "secs": 14
+        },
+        "text": "Clothing",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 188,
+        "amount": 523.36,
+        "tranTime": {
+            "day": 16,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 51,
+            "secs": 10
+        },
+        "text": "Rent",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 189,
+        "amount": 626.57,
+        "tranTime": {
+            "day": 21,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 8,
+            "secs": 6
+        },
+        "text": "Dining Out",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 190,
+        "amount": 899.77,
+        "tranTime": {
+            "day": 3,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 43,
+            "secs": 16
+        },
+        "text": "Dining Out",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 191,
+        "amount": 511.62,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 23,
+            "secs": 0
+        },
+        "text": "Miscellaneous",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 192,
+        "amount": 127.56,
+        "tranTime": {
+            "day": 14,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 17,
+            "secs": 44
+        },
+        "text": "Rent",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 193,
+        "amount": 62.06,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 33,
+            "secs": 32
+        },
+        "text": "Education",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 194,
+        "amount": 458.51,
+        "tranTime": {
+            "day": 10,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 18,
+            "secs": 56
+        },
+        "text": "Dining Out",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 195,
+        "amount": 522.66,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 29,
+            "secs": 25
+        },
+        "text": "Utilities",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 196,
+        "amount": 919.27,
+        "tranTime": {
+            "day": 22,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 47,
+            "secs": 4
+        },
+        "text": "Travel",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 197,
+        "amount": 227.58,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 40,
+            "secs": 21
+        },
+        "text": "Dining Out",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 198,
+        "amount": 606.22,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 31,
+            "secs": 52
+        },
+        "text": "Clothing",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 199,
+        "amount": 708.85,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 34,
+            "secs": 31
+        },
+        "text": "Entertainment",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 200,
+        "amount": 518.57,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 52,
+            "secs": 17
+        },
+        "text": "Utilities",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 201,
+        "amount": 106.34,
+        "tranTime": {
+            "day": 13,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 23,
+            "secs": 29
+        },
+        "text": "Rent",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 202,
+        "amount": 941.06,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 20,
+            "mins": 34,
+            "secs": 56
+        },
+        "text": "Utilities",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 203,
+        "amount": 563.64,
+        "tranTime": {
+            "day": 1,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 40,
+            "secs": 11
+        },
+        "text": "Education",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 204,
+        "amount": 200.53,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 8,
+            "secs": 30
+        },
+        "text": "Education",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 205,
+        "amount": 101.98,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 48,
+            "secs": 9
+        },
+        "text": "Miscellaneous",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 206,
+        "amount": 739.54,
+        "tranTime": {
+            "day": 21,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 12,
+            "secs": 12
+        },
+        "text": "Healthcare",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 207,
+        "amount": 107.47,
+        "tranTime": {
+            "day": 14,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 56,
+            "secs": 57
+        },
+        "text": "Utilities",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 208,
+        "amount": 781.52,
+        "tranTime": {
+            "day": 13,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 38,
+            "secs": 12
+        },
+        "text": "Clothing",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 209,
+        "amount": 488.59,
+        "tranTime": {
+            "day": 4,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 47,
+            "secs": 53
+        },
+        "text": "Dining Out",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 210,
+        "amount": 979.89,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 51,
+            "secs": 19
+        },
+        "text": "Healthcare",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 211,
+        "amount": 186.26,
+        "tranTime": {
+            "day": 13,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 18,
+            "secs": 48
+        },
+        "text": "Utilities",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 212,
+        "amount": 908.38,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 1,
+            "secs": 49
+        },
+        "text": "Education",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 213,
+        "amount": 525.8,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 20,
+            "mins": 39,
+            "secs": 4
+        },
+        "text": "Gas",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 214,
+        "amount": 309.0,
+        "tranTime": {
+            "day": 14,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 41,
+            "secs": 30
+        },
+        "text": "Gas",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 215,
+        "amount": 342.98,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 22,
+            "secs": 14
+        },
+        "text": "Travel",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 216,
+        "amount": 746.93,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 25,
+            "secs": 3
+        },
+        "text": "Healthcare",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 217,
+        "amount": 142.37,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 51,
+            "secs": 11
+        },
+        "text": "Groceries",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 218,
+        "amount": 561.47,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 14,
+            "secs": 20
+        },
+        "text": "Healthcare",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 219,
+        "amount": 499.81,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 34,
+            "secs": 56
+        },
+        "text": "Miscellaneous",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 220,
+        "amount": 802.25,
+        "tranTime": {
+            "day": 30,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 30,
+            "secs": 54
+        },
+        "text": "Education",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 221,
+        "amount": 694.61,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 5,
+            "secs": 3
+        },
+        "text": "Entertainment",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 222,
+        "amount": 990.15,
+        "tranTime": {
+            "day": 1,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 20,
+            "secs": 23
+        },
+        "text": "Miscellaneous",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 223,
+        "amount": 170.82,
+        "tranTime": {
+            "day": 8,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 49,
+            "secs": 24
+        },
+        "text": "Utilities",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 224,
+        "amount": 770.69,
+        "tranTime": {
+            "day": 25,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 12,
+            "secs": 45
+        },
+        "text": "Travel",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 225,
+        "amount": 725.07,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 53,
+            "secs": 16
+        },
+        "text": "Dining Out",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 226,
+        "amount": 124.11,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 40,
+            "secs": 49
+        },
+        "text": "Groceries",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 227,
+        "amount": 99.87,
+        "tranTime": {
+            "day": 8,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 37,
+            "secs": 48
+        },
+        "text": "Entertainment",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 228,
+        "amount": 669.1,
+        "tranTime": {
+            "day": 16,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 36,
+            "secs": 58
+        },
+        "text": "Education",
+        "category": "Food",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 229,
+        "amount": 419.5,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 56,
+            "secs": 39
+        },
+        "text": "Travel",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 230,
+        "amount": 448.33,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 55,
+            "secs": 52
+        },
+        "text": "Travel",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 231,
+        "amount": 966.46,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 21,
+            "secs": 27
+        },
+        "text": "Healthcare",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 232,
+        "amount": 229.85,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 52,
+            "secs": 37
+        },
+        "text": "Groceries",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 233,
+        "amount": 677.26,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 42,
+            "secs": 10
+        },
+        "text": "Entertainment",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 234,
+        "amount": 33.37,
+        "tranTime": {
+            "day": 10,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 1,
+            "secs": 51
+        },
+        "text": "Gas",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 235,
+        "amount": 811.0,
+        "tranTime": {
+            "day": 12,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 0,
+            "secs": 37
+        },
+        "text": "Utilities",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 236,
+        "amount": 227.37,
+        "tranTime": {
+            "day": 19,
+            "month": 6,
+            "year": 2023,
+            "hours": 2,
+            "mins": 49,
+            "secs": 12
+        },
+        "text": "Miscellaneous",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 237,
+        "amount": 721.52,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 14,
+            "mins": 18,
+            "secs": 37
+        },
+        "text": "Gas",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 238,
+        "amount": 581.57,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 46,
+            "secs": 8
+        },
+        "text": "Healthcare",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 239,
+        "amount": 311.24,
+        "tranTime": {
+            "day": 24,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 30,
+            "secs": 44
+        },
+        "text": "Utilities",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 240,
+        "amount": 724.75,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 43,
+            "secs": 36
+        },
+        "text": "Utilities",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 241,
+        "amount": 179.88,
+        "tranTime": {
+            "day": 19,
+            "month": 6,
+            "year": 2023,
+            "hours": 13,
+            "mins": 40,
+            "secs": 11
+        },
+        "text": "Entertainment",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 242,
+        "amount": 746.25,
+        "tranTime": {
+            "day": 1,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 25,
+            "secs": 26
+        },
+        "text": "Clothing",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 243,
+        "amount": 696.59,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 37,
+            "secs": 42
+        },
+        "text": "Travel",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 244,
+        "amount": 851.77,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 24,
+            "secs": 22
+        },
+        "text": "Education",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 245,
+        "amount": 466.19,
+        "tranTime": {
+            "day": 1,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 50,
+            "secs": 7
+        },
+        "text": "Gas",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 246,
+        "amount": 64.31,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 5,
+            "secs": 3
+        },
+        "text": "Utilities",
+        "category": "Transport",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 247,
+        "amount": 72.39,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 10,
+            "mins": 59,
+            "secs": 56
+        },
+        "text": "Groceries",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 248,
+        "amount": 730.61,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 31,
+            "secs": 44
+        },
+        "text": "Entertainment",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 249,
+        "amount": 479.4,
+        "tranTime": {
+            "day": 21,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 25,
+            "secs": 53
+        },
+        "text": "Education",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 250,
+        "amount": 268.06,
+        "tranTime": {
+            "day": 15,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 30,
+            "secs": 24
+        },
+        "text": "Gas",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 251,
+        "amount": 368.54,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 1,
+            "secs": 44
+        },
+        "text": "Education",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 252,
+        "amount": 211.1,
+        "tranTime": {
+            "day": 13,
+            "month": 6,
+            "year": 2023,
+            "hours": 2,
+            "mins": 14,
+            "secs": 51
+        },
+        "text": "Dining Out",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 253,
+        "amount": 753.42,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 56,
+            "secs": 48
+        },
+        "text": "Groceries",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 254,
+        "amount": 815.12,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 23,
+            "mins": 42,
+            "secs": 39
+        },
+        "text": "Clothing",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 255,
+        "amount": 530.92,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 2,
+            "mins": 57,
+            "secs": 53
+        },
+        "text": "Education",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 256,
+        "amount": 506.83,
+        "tranTime": {
+            "day": 12,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 3,
+            "secs": 7
+        },
+        "text": "Gas",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 257,
+        "amount": 428.79,
+        "tranTime": {
+            "day": 1,
+            "month": 6,
+            "year": 2023,
+            "hours": 18,
+            "mins": 31,
+            "secs": 30
+        },
+        "text": "Entertainment",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 258,
+        "amount": 371.35,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 20,
+            "mins": 51,
+            "secs": 55
+        },
+        "text": "Gas",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 259,
+        "amount": 675.84,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 2,
+            "secs": 30
+        },
+        "text": "Entertainment",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 260,
+        "amount": 188.01,
+        "tranTime": {
+            "day": 17,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 11,
+            "secs": 4
+        },
+        "text": "Education",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 261,
+        "amount": 420.67,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 22,
+            "secs": 39
+        },
+        "text": "Dining Out",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 262,
+        "amount": 214.96,
+        "tranTime": {
+            "day": 4,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 11,
+            "secs": 49
+        },
+        "text": "Miscellaneous",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 263,
+        "amount": 623.03,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 32,
+            "secs": 57
+        },
+        "text": "Gas",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 264,
+        "amount": 742.93,
+        "tranTime": {
+            "day": 12,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 2,
+            "secs": 49
+        },
+        "text": "Healthcare",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 265,
+        "amount": 630.56,
+        "tranTime": {
+            "day": 3,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 54,
+            "secs": 33
+        },
+        "text": "Rent",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 266,
+        "amount": 103.78,
+        "tranTime": {
+            "day": 6,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 10,
+            "secs": 59
+        },
+        "text": "Education",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 267,
+        "amount": 220.43,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 24,
+            "secs": 22
+        },
+        "text": "Groceries",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 268,
+        "amount": 227.79,
+        "tranTime": {
+            "day": 22,
+            "month": 6,
+            "year": 2023,
+            "hours": 9,
+            "mins": 1,
+            "secs": 14
+        },
+        "text": "Groceries",
+        "category": "Travel",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 269,
+        "amount": 767.86,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 45,
+            "secs": 32
+        },
+        "text": "Clothing",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 270,
+        "amount": 124.51,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 41,
+            "secs": 39
+        },
+        "text": "Entertainment",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 271,
+        "amount": 788.83,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 8,
+            "secs": 16
+        },
+        "text": "Utilities",
+        "category": "Utilities",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 272,
+        "amount": 957.6,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 57,
+            "secs": 47
+        },
+        "text": "Rent",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 273,
+        "amount": 199.01,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 8,
+            "mins": 12,
+            "secs": 26
+        },
+        "text": "Education",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 274,
+        "amount": 891.03,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 3,
+            "secs": 10
+        },
+        "text": "Gas",
+        "category": "Transport",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 275,
+        "amount": 320.31,
+        "tranTime": {
+            "day": 14,
+            "month": 6,
+            "year": 2023,
+            "hours": 17,
+            "mins": 31,
+            "secs": 58
+        },
+        "text": "Gas",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 276,
+        "amount": 936.22,
+        "tranTime": {
+            "day": 26,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 1,
+            "secs": 58
+        },
+        "text": "Gas",
+        "category": "Leisure",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 277,
+        "amount": 908.9,
+        "tranTime": {
+            "day": 5,
+            "month": 6,
+            "year": 2023,
+            "hours": 16,
+            "mins": 47,
+            "secs": 36
+        },
+        "text": "Utilities",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 278,
+        "amount": 57.62,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 11,
+            "mins": 26,
+            "secs": 19
+        },
+        "text": "Travel",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 279,
+        "amount": 47.13,
+        "tranTime": {
+            "day": 19,
+            "month": 6,
+            "year": 2023,
+            "hours": 20,
+            "mins": 11,
+            "secs": 16
+        },
+        "text": "Miscellaneous",
+        "category": "Health",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 280,
+        "amount": 534.53,
+        "tranTime": {
+            "day": 11,
+            "month": 6,
+            "year": 2023,
+            "hours": 2,
+            "mins": 51,
+            "secs": 1
+        },
+        "text": "Miscellaneous",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 281,
+        "amount": 385.28,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 36,
+            "secs": 54
+        },
+        "text": "Groceries",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 282,
+        "amount": 598.5,
+        "tranTime": {
+            "day": 4,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 39,
+            "secs": 57
+        },
+        "text": "Groceries",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 283,
+        "amount": 761.25,
+        "tranTime": {
+            "day": 2,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 33,
+            "secs": 20
+        },
+        "text": "Gas",
+        "category": "Other",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 284,
+        "amount": 502.24,
+        "tranTime": {
+            "day": 8,
+            "month": 6,
+            "year": 2023,
+            "hours": 12,
+            "mins": 32,
+            "secs": 32
+        },
+        "text": "Clothing",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 285,
+        "amount": 865.59,
+        "tranTime": {
+            "day": 13,
+            "month": 6,
+            "year": 2023,
+            "hours": 6,
+            "mins": 39,
+            "secs": 3
+        },
+        "text": "Groceries",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 286,
+        "amount": 402.53,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 5,
+            "mins": 14,
+            "secs": 35
+        },
+        "text": "Miscellaneous",
+        "category": "Education",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 287,
+        "amount": 260.88,
+        "tranTime": {
+            "day": 9,
+            "month": 6,
+            "year": 2023,
+            "hours": 15,
+            "mins": 32,
+            "secs": 24
+        },
+        "text": "Miscellaneous",
+        "category": "Education",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 288,
+        "amount": 78.36,
+        "tranTime": {
+            "day": 20,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 27,
+            "secs": 48
+        },
+        "text": "Miscellaneous",
+        "category": "Leisure",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 289,
+        "amount": 837.98,
+        "tranTime": {
+            "day": 19,
+            "month": 6,
+            "year": 2023,
+            "hours": 0,
+            "mins": 14,
+            "secs": 25
+        },
+        "text": "Entertainment",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 290,
+        "amount": 67.68,
+        "tranTime": {
+            "day": 25,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 34,
+            "secs": 1
+        },
+        "text": "Clothing",
+        "category": "Utilities",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 291,
+        "amount": 628.19,
+        "tranTime": {
+            "day": 7,
+            "month": 6,
+            "year": 2023,
+            "hours": 22,
+            "mins": 38,
+            "secs": 48
+        },
+        "text": "Gas",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 292,
+        "amount": 890.37,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 5,
+            "secs": 38
+        },
+        "text": "Miscellaneous",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 293,
+        "amount": 285.98,
+        "tranTime": {
+            "day": 29,
+            "month": 6,
+            "year": 2023,
+            "hours": 3,
+            "mins": 41,
+            "secs": 2
+        },
+        "text": "Utilities",
+        "category": "Food",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 294,
+        "amount": 804.29,
+        "tranTime": {
+            "day": 14,
+            "month": 6,
+            "year": 2023,
+            "hours": 1,
+            "mins": 50,
+            "secs": 33
+        },
+        "text": "Gas",
+        "category": "Housing",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 295,
+        "amount": 470.23,
+        "tranTime": {
+            "day": 24,
+            "month": 6,
+            "year": 2023,
+            "hours": 19,
+            "mins": 20,
+            "secs": 10
+        },
+        "text": "Rent",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 296,
+        "amount": 522.19,
+        "tranTime": {
+            "day": 18,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 25,
+            "secs": 53
+        },
+        "text": "Groceries",
+        "category": "Housing",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 297,
+        "amount": 364.32,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 7,
+            "mins": 19,
+            "secs": 10
+        },
+        "text": "Education",
+        "category": "Travel",
+        "incomeOrExpense": "Expense"
+    },
+    {
+        "id": 298,
+        "amount": 875.5,
+        "tranTime": {
+            "day": 4,
+            "month": 6,
+            "year": 2023,
+            "hours": 21,
+            "mins": 2,
+            "secs": 14
+        },
+        "text": "Dining Out",
+        "category": "Health",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 299,
+        "amount": 770.72,
+        "tranTime": {
+            "day": 23,
+            "month": 6,
+            "year": 2023,
+            "hours": 4,
+            "mins": 3,
+            "secs": 24
+        },
+        "text": "Rent",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    },
+    {
+        "id": 300,
+        "amount": 819.02,
+        "tranTime": {
+            "day": 28,
+            "month": 6,
+            "year": 2023,
+            "hours": 20,
+            "mins": 14,
+            "secs": 0
+        },
+        "text": "Entertainment",
+        "category": "Other",
+        "incomeOrExpense": "Income"
+    }
+]

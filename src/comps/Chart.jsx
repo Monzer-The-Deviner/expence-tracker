@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useRef, useEffect, useContext } from 'react';
-import { GlobalContext } from '../context/GlobalProvider';
+import { GlobalContext } from '../logic/GlobalProvider';
 
 const Chart = ({ data1, data2 }) => {
     const canvasRef = useRef(null);

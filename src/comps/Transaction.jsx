@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState, useContext  } from "react"
 import deleteIcon from "../Assets/trash-can.svg"
-import { GlobalContext } from "../context/GlobalProvider"
+import { GlobalContext } from "../logic/GlobalProvider"
 
 const Transaction = ({transaction,dateTrans,date}) => {
     const { delTran,theme} = useContext(GlobalContext)
@@ -12,7 +12,7 @@ const Transaction = ({transaction,dateTrans,date}) => {
         <div 
             onMouseOver={()=>setOptions(true)}
             onMouseLeave={()=>setOptions(false)}
-            className="m-2 h-8 w-full">
+            className="h-8 w-full">
 
                 <div 
                 className={`${theme.text2nd} p-1 w-full -z-0  flex bg-red-600 justify-end items-center text-lg  rounded-md hover:shadow-lg shadow-md`}>

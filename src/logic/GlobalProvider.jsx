@@ -24,7 +24,8 @@ export const GlobalProvider = ({ children }) => {
     };
 
     const [transactions, setTransactions] = useState(() => restoreFromStorage('transactions') || []);
-    const [dates, setDates] = useState(() => restoreFromStorage('dates') || []);
+    const [dates, setDates] = useState([])
+   
     const [categories, setCategories] = useState(() => restoreFromStorage('categories') || []);
     const [visible, setvisible] = useState(false);
     const [color, setColor] = useState('bg-green-600');
@@ -42,8 +43,8 @@ export const GlobalProvider = ({ children }) => {
     const fetchData = async (userId) => {
         const q = query(collection(db, 'userData'), where('userId', '==', userId));
         const querySnapshot = await getDocs(q);
-        const dataList = querySnapshot.docs.map(doc => doc.data());
-        setData(dataList);
+        // const dataList = querySnapshot.docs.map(doc => doc.data());
+        // setData(dataList);
     };
 
     const addTran = async (newTran) => {
@@ -53,7 +54,7 @@ export const GlobalProvider = ({ children }) => {
                     userId: user.uid,
                     ...newTran
                 });
-                setTransactions([...transactions, newTran]);
+                setTransactions([...transactions]);
                 const { day, month, year } = newTran.tranTime;
                 let id = Math.floor(Math.random() * 10000);
                 if (transactions.find(tran => tran.id === id)) Math.floor(Math.random() * 10000);
@@ -95,7 +96,26 @@ export const GlobalProvider = ({ children }) => {
     const handleChoose = (theme) => {
         setTheme(theme);
     };
+    const getDates=(trans)=>{
+        const dates = []
+        trans.forEach(tran=>{
+            const {month,day,year} = tran.tranTime
+            const stringDate = `${month}-${day}-${year}`
+            const exeisted = dates.find(date=>date.date==stringDate)
+            if (!exeisted) {
+                dates.push({date:stringDate,amounts:[tran.amount]})
+            }else{
+                exeisted.amounts.push(tran.amount)
+            }
+        
+        })
+        setDates(dates)
+    }
 
+    useEffect(()=>{
+        getDates(transactions)
+    
+    },[transactions])
     useEffect(() => {
         saveToStorage('transactions', transactions);
         saveToStorage('dates', dates);
@@ -110,7 +130,7 @@ export const GlobalProvider = ({ children }) => {
                 fetchData(user.uid);
             } else {
                 setUser(null);
-                setData([]);
+                // setData([]);
             }
         });
         return () => unsubscribe();
@@ -140,6 +160,7 @@ export const GlobalProvider = ({ children }) => {
             user,
             signInWithGoogle,
             logOut,
+            setDates
         }}>
             {children}
         </GlobalContext.Provider>

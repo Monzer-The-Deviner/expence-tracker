@@ -1,10 +1,9 @@
 import { useContext,useState } from "react";
-import { GlobalContext } from "../context/GlobalProvider";
+import { GlobalContext } from "../logic/GlobalProvider";
 
 const NewCategory = () => {
     const [name, setName] = useState('');
     const {color, setColor,setCategories,categories,theme}=useContext(GlobalContext)
-    const [expOrIncome, setexpOrIncome] = useState('both');
     return ( 
         <>
             <div className={`${theme.bgFill2} m-2 flex flex-1 rounded-md flex-col shadow-xl `}>
