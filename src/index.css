@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.container-bg{
-    background-image: url('./Assets/Asset-2.png');
-    background-size: cover;
-    background-position: center;
+.authform input{
+    @apply rounded-md text-white bg-[#5c5779] px-2 pb-1 outline-none
 }

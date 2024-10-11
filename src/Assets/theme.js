@@ -35,26 +35,26 @@ export const themes = [
         {
             bg1st: 'bg-green-500',
             bg2nd: 'bg-green-100',
-            text1st: 'text-white',
-            text2nd: 'text-green-600',
+            text2nd: 'text-white',
+            text1st: 'text-green-600',
         },
         {
             bg1st: 'bg-purple-500',
             bg2nd: 'bg-purple-100',
-            text1st: 'text-white',
-            text2nd: 'text-purple-600',
+            text2nd: 'text-white',
+            text1st: 'text-purple-600',
         },
         {
             bg1st: 'bg-orange-500',
             bg2nd: 'bg-orange-100',
-            text1st: 'text-white',
-            text2nd: 'text-orange-600',
+            text2nd: 'text-white',
+            text1st: 'text-orange-600',
         },
         {
             bg1st: 'bg-teal-500',
             bg2nd: 'bg-teal-100',
-            text1st: 'text-white',
-            text2nd: 'text-teal-600',
+            text2nd: 'text-white',
+            text1st: 'text-teal-600',
         },
     ];
     

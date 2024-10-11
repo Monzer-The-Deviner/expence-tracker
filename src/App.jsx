@@ -9,7 +9,9 @@ import CategoriesPage from './CategoriesPage';
 import AnaliticsPage from './AnaliticsPage';
 import SettingsPage from './SettingsPage';
 import { useContext } from "react";
-import Auth from "./Auth";
+import AuthPage from "./Auth";
+import LandingPage from "./LandingPage";
+
 
 
 const App = () => {
@@ -17,21 +19,27 @@ const App = () => {
 
   return (
     <Router>
-      <div className={`flex ${theme.text1st} ${theme.bgFill} min-h-[100vh] pb-16 justify-center`}>
-          {true ? (
-              <div className={`w-full p-2 md:pl-16 lg:w-3/4 `}>
-            
+      <div className={`flex ${theme.text1st} ${theme.bgFill} min-h-[100vh] justify-center`}>
+          {user ? (
+          <div className="max-w-5xl p-2 lg:pl-16 w-full">
               <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/categories" element={<CategoriesPage />} />
-                <Route path="/analitics" element={<AnaliticsPage />} />
-                <Route path="/settings" element={<SettingsPage />} />
+
+                  <Route path="/" element={<HomePage />} />
+                  <Route path="/categories" element={<CategoriesPage />} />
+                  <Route path="/analitics" element={<AnaliticsPage />} />
+                  <Route path="/settings" element={<SettingsPage />} />
+              
+                
               </Routes>
-              <SideBar />
-            
-              </div>
-          ) : <Auth />
-          }
+          </div>
+          ) : <Routes>
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/auth" element={<AuthPage />} />
+          
+              
+              </Routes>
+        }
+        {user&&<SideBar />}
       </div>
     </Router>
   );

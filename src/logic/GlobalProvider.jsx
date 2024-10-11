@@ -43,8 +43,8 @@ export const GlobalProvider = ({ children }) => {
     const fetchData = async (userId) => {
         const q = query(collection(db, 'userData'), where('userId', '==', userId));
         const querySnapshot = await getDocs(q);
-        // const dataList = querySnapshot.docs.map(doc => doc.data());
-        // setData(dataList);
+        const dataList = querySnapshot.docs.map(doc => doc.data());
+        setData(dataList);
     };
 
     const addTran = async (newTran) => {
@@ -146,6 +146,8 @@ export const GlobalProvider = ({ children }) => {
             categories,
             data,
             theme,
+            user,
+            setUser,
             addTran,
             delTran,
             setvisible,
@@ -157,7 +159,6 @@ export const GlobalProvider = ({ children }) => {
             saveToStorage,
             restoreFromStorage,
             handleChoose,
-            user,
             signInWithGoogle,
             logOut,
             setDates

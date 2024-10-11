@@ -41,13 +41,13 @@ const SettingsPage = () => {
                     {themes.map((theme, index) => (
                         <div
                         onClick={()=>handleChoose(theme)}
-                        key={index} className={`${theme.bgFill2} flex shadow-md rounded-lg flex-col h-36 w-32`}>
-                            <div className={`${theme.bg1st} flex flex-col shadow-md rounded-lg h-3/4`}>
-                                <span className={`${theme.text2nd}`}>some text</span>
-                                <div className={`m-2 mb-1 rounded-lg h-8 ${theme.bg2nd}`}>
-                                    <span className={`${theme.text1st}`}>some text</span>
+                        key={index} className={`${theme.bgFill2} border border-gray-300 flex shadow-md rounded-lg flex-col h-36 w-32`}>
+                            <div className={`${theme.bg1st} flex flex-col shadow-md p-2 gap-4 rounded-lg h-3/4`}>
+                                <div className={` rounded-lg h-8 ${theme.bg2nd}`}>
                                 </div>
+                                <span className={`${theme.text2nd} text-lg`}>Some Text</span>
                             </div>
+                                    <span className={`${theme.text1st} m-2`}>Some text</span>
                         </div>
                     ))}
                 </div>

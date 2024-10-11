@@ -11,26 +11,26 @@ const NewTransactionForm = () => {
     const [now, setNow] = useState(true);
 
     return ( 
-        <div className={`w-full px-2 h-full flex-1 scroll-p-4 shadow-lg duration-300 md:px-0 md:h-fit backdrop-blur-sm bg-[#0a3b2c9a] md:bg-transparent md:backdrop-blur-0  items-center justify-center top-0 md:top-auto left-0 md:left-auto fixed md:relative md:opacity-100 ${visible?'opacity-100 flex':'opacity-0 invisible'} `}>
+        <div className={`w-full px-2 h-full flex-1 scroll-p-4 shadow-lg duration-300 md:px-0 md:h-fit backdrop-blur-sm bg-[#0a3b2c9a] md:bg-transparent md:backdrop-blur-0  items-center justify-center top-0 md:top-auto left-0 md:left-auto fixed md:relative md:visible ${visible?'visible flex':' invisible'} `}>
 
-            <form className={`duration-700 h-[50vh]  md:h-fit w-full  flex flex-col  ${theme.bgFill2} gap-4 rounded-lg`}>
+            <form  className={`duration-700 gap-4 h-[50vh] md:h-fit w-full  flex flex-col  ${theme.bgFill2} gap-4 rounded-lg`}>
 
-                <div className={`bg-green-500 text-white justify-between flex p-2 text-lg pl-4 rounded-t-lg`}>
-                    <span>New Transaction</span>
+                <div className={`bg-teal-600  justify-between flex p-2 text-lg pl-4 rounded-t-lg`}>
+                    <span className="text-white">New Transaction</span>
                 
                         <button
-                        className="self-end text-white"
+                        className="self-end md:invisible text-white"
                         type="button"
                         onClick={()=>setvisible(false)}>
                             {'back >'}
                         </button>
                 </div>
-                <div className="flex-col justify-between flex px-4 flex-1">
+                <div className="flex-col gap-4 justify-between flex px-4 flex-1">
 
                     <div className="gap-2 flex flex-row">
                     <input
                         id="distany"  
-                        className={`rounded-md border p-1 ${theme.bgFill} border-gray-500 `}
+                        className={`rounded-md border text p-1 ${theme.bgFill} border-gray-100 `}
                         type="text"
                         placeholder="where from/to"
                         value={Text}
@@ -40,14 +40,14 @@ const NewTransactionForm = () => {
                             }}
                             />
                     <select 
-                        className={`flex-1 rounded-md border border-gray-500 ${theme.bgFill} `} 
+                        className={`flex-1 rounded-md border ${theme.bgFill} `} 
                         onChange={e=> {
                             if (e.target.value == 'expeinces'){setSign(-1)}
                             else if (e.target.value == 'income'){setSign(1)}
                         }}
                     >
-                        <option className="bg-green-500  focus:bg-inherit" value="income">income</option>
-                        <option className="bg-red-500"  value="expeinces">expeinces</option>
+                        <option value="income">income</option>
+                        <option   value="expeinces">expeinces</option>
                     </select>
                     </div>
                     <div className="flex gap-1 flex-row">
@@ -61,14 +61,14 @@ const NewTransactionForm = () => {
 
                                     <input 
                                     disabled={now}
-                                    className={`flex-1 rounded-md border border-gray-500 ${theme.bgFill} `} 
+                                    className={`flex-1 rounded-md border border-gray-100 ${theme.bgFill} `} 
                                     type="date" name="" id="" />
                                 </div>
                         </div>
                         <div className="flex-1 flex justify-between flex-col">
                             <h3>categories</h3>
                             <select
-                            className={`flex-1 rounded-md border border-gray-500 ${theme.bgFill} `} 
+                            className={`flex-1 rounded-md border border-gray-100 ${theme.bgFill} `} 
                             name="" id="">
                                 {categories.length==0&&  <option>no categories...</option>}
                                 {categories.map((categ,index)=>{
@@ -82,7 +82,7 @@ const NewTransactionForm = () => {
                         {/* amount */}
                     <div>
                     <input 
-                    className={`rounded-md border p-1 ${theme.bgFill} border-gray-500 w-full`}
+                    className={`rounded-md border p-1 ${theme.bgFill} border-gray-100 w-full`}
                     type="number"
                     placeholder="the amount"
                     value={Amount}
@@ -97,7 +97,7 @@ const NewTransactionForm = () => {
                     </div>
                         {/* submit button */}
                     <button 
-                        className={`py-1 hover:shadow-lg md:hover:text-xl border-2 duration-500 ${theme.buttonBg1} ${theme.buttonText1} text-lg rounded-md`}
+                        className={`py-1 hover:shadow-lg md:hover:text-xl border-2 duration-500 bg-teal-600 ${theme.buttonText1} text-lg rounded-lg`}
                         onClick={(e)=>{
                         e.preventDefault()
                         const date = new Date()

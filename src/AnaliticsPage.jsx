@@ -2,6 +2,7 @@
 import { useContext, useState, useEffect } from "react";
 import Chart from "./comps/Chart";
 import { GlobalContext } from "./logic/GlobalProvider";
+import { Link } from "react-router-dom";
 
 const AnaliticsPage = () => {
     const { transactions,data, setData,theme,dates,setDates} = useContext(GlobalContext);
@@ -47,9 +48,9 @@ const AnaliticsPage = () => {
         , [selectedPioriod, transactions,dates]);
     const analisticsList = Object.entries(data);
     return (
-        <div className="flex flex-col">
+        <div className="flex min-h-screen flex-col">
 
-            {analisticsList.map(([key, element], index) => (
+            {analisticsList.length>0?analisticsList.map(([key, element], index) => (
                 element.visible && (
                     <div key={index} className={`rounded-md items-center justify-between mb-2 flex flex-col ${(index + 1) % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} shadow-md h-32 ${theme.bgFill2}`}>
                         <div className="md:w-[48%] rounded-md bg-emerald-700">
@@ -59,7 +60,15 @@ const AnaliticsPage = () => {
                             <Chart data1={element.data2} data2={element.data1} />
                         </div>
                     </div>
-                )))}
+                ))):
+                
+                <div className="top-1/2 absolute self-center flex flex-col gap-4">
+                    
+                    <h1 className="text-3xl font-bold">No analytics avalible</h1>
+                    <Link className="bg-teal-600 text-white px-4 rounded-md py-2 self-center" to={'/'}>Home page</Link>
+                </div>
+            
+            }
 
         </div>
     );
