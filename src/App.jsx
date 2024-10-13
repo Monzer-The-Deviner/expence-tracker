@@ -39,7 +39,7 @@ const App = () => {
               
               </Routes>
         }
-        {user&&<SideBar />}
+        {!user&&<SideBar />}
       </div>
     </Router>
   );

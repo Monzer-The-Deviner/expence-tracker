@@ -19,7 +19,7 @@ const AuthPage = () => {
                 <>
                 <div className="flex items-start justify-between">
                     <h1 className="mb-4 text-xl">Welcome Back!!</h1>
-                    <Link>back</Link>
+                    <Link to='home'>back</Link>
                 </div>
                 <label htmlFor="email">Email</label>
                 <input type="email" />
@@ -58,6 +58,12 @@ const AuthPage = () => {
                 <input type="email" />
                 <label htmlFor="password">Password</label>
                 <input id="password" type="password" />
+                <button 
+                 type="button"
+                 className="text-teal-400 border-teal-400 py-2 px-4 self-center"
+                 onClick={()=>setUser({username:'guest',email:'hahajoke@email.com'})}>
+                just trying
+                </button>
                 <div className="flex justify-around p-2 items-center">
 
                     <button onClick={signInWithGoogle}
@@ -74,7 +80,7 @@ const AuthPage = () => {
                 <div className="flex justify-center">
                 <span>alrady have an account?</span><button className="text-teal-400 px-4" onClick={ ()=>setSignIn(true)}>signIn</button>
                 </div>
-                <span className="text-teal-400 self-center" onClick={()=>setUser({username:'guest',email:'hahajoke@email.com'})}>just trying</span>
+                
             </>
             }
 

@@ -3,11 +3,20 @@ import { GlobalContext } from "../logic/GlobalProvider";
 
 const NewCategory = () => {
     const [name, setName] = useState('');
-    const {color, setColor,setCategories,categories,theme}=useContext(GlobalContext)
+    const {color,visible,setvisible, setColor,setCategories,categories,theme}=useContext(GlobalContext)
     return ( 
-        <>
+        <div className={`w-full px-2 h-full flex-1 scroll-p-4 shadow-lg duration-300 md:px-0 md:h-fit backdrop-blur-sm bg-[#0a3b2c9a] md:bg-transparent md:backdrop-blur-0  items-center justify-center top-0 md:top-auto left-0 md:left-auto fixed md:relative md:visible ${visible?'visible flex':' invisible'} `}>
+
             <div className={`${theme.bgFill2} m-2 flex flex-1 rounded-md flex-col shadow-xl `}>
-                <div className={`${color} text-white p-2 text-lg pl-4 rounded-t-lg`}>New Category</div>
+                <div className={`${color} text-white p-2 text-lg pl-4 flex justify-between rounded-t-lg`}>
+                    <span>New Category </span>
+                    <button
+                        className="self-end md:invisible text-white"
+                        type="button"
+                        onClick={()=>setvisible(false)}>
+                            {'back >'}
+                    </button>
+                </div>
                 <form className="flex justify-start flex-col p-4 h-full" >
                     <label htmlFor="category name">Category name: </label>
                     <input onChange={(e)=>setName(e.target.value)} value={name} type="text" placeholder="name" className={`rounded-md border p-1 ${theme.bgFill} border-gray-500 m-2`}/>
@@ -40,7 +49,7 @@ const NewCategory = () => {
                     }}>create</button>
                 </form>
             </div>  
-        </>
+        </div>
      );
 }
  

@@ -4,15 +4,15 @@ import NewCategory from "./comps/newCategory";
 import { GlobalContext } from "./logic/GlobalProvider";
 
 const CategoriesPage = () => {
-    const {categories,transactions,theme}=useContext(GlobalContext)
+    const { visible,setvisible,categories,transactions,theme}=useContext(GlobalContext)
     const [selectedCateg, setSelectedCateg] = useState('') 
     const filterdTransactions = transactions.filter(tran=>tran.category==selectedCateg)
     const transNumber = transactions.length||0
     const categNumber = categories.length||0
     return ( 
-        <div className="h-full w-full flex flex-row">
+        <div className="h-full flex-col  w-full flex md:flex-row">
 
-            <div className="flex lg:w-[25vw] lg:flex-initial md:flex-1  flex-col ">
+            <div className="flex md:w-90 w-full flex-1  flex-col ">
 
                 <div className="rounded-lg flex-col shadow-xl overflow-hidden flex-1">
                     <div className=" flex h-32 gap-2 .scroll-container">
@@ -44,8 +44,15 @@ const CategoriesPage = () => {
             </div>
 
             <div className="flex-1 m-2 flex-col">
+                <div className="p-2 border-b border-teal-700 text-teal-800">
+                    transactions
+
+                </div>
                     {filterdTransactions.map(tran=><Transaction transaction={tran} key={tran.id}/>)}
             </div>
+            <button 
+        onClick={()=>setvisible(opacity=>!opacity)}
+        className={`md:invisible rounded-full text-3xl ${visible?'invisible':'visible'} ${theme.bg3rd} size-12 ${theme.text2nd} fixed right-4 pb-1 bottom-20`}>+</button>
         </div>
      );
 }
