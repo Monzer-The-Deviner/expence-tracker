@@ -10,11 +10,11 @@ const CategoriesPage = () => {
     const transNumber = transactions.length||0
     const categNumber = categories.length||0
     return ( 
-        <div className="h-full flex-col  w-full flex md:flex-row">
+        <div className="h-full flex-col md:pl-14   w-full flex md:flex-row">
 
-            <div className="flex md:w-90 w-full flex-1  flex-col ">
+            <div className="flex md:w-90 w-full flex-1   flex-col ">
 
-                <div className="rounded-lg flex-col shadow-xl overflow-hidden flex-1">
+                <div className="rounded-lg flex-col max-h-96 flex shadow-xl overflow-hidden flex-1">
                     <div className=" flex h-32 gap-2 .scroll-container">
                         <div className="flex-1  rounded-lg flex-col items-center justify-center bg-green-600 flex">
                             <h3 className="text-5xl text-white">{transNumber}</h3>
@@ -26,14 +26,14 @@ const CategoriesPage = () => {
                         </div>
 
                     </div>
-                    <div className="overflow-y-scroll max-h-40 mt-3 flex flex-col gap-1">
+                    <div className="overflow-y-scroll flex-1 mt-3 flex flex-col gap-1">
 
                         {categories.map((categ,i)=>
                         <div 
                         key={i}
                         onClick={()=>setSelectedCateg(categ.name)}
-                        className={` h-32 gap-4 flex rounded-md ${theme.bgFill2} shadow-md`}>
-                            <h1 className={`aspect-square ${theme.text2nd} ${categ.color} rounded-md text-4xl text-center flex justify-center items-center `}>{transactions.filter(tran=>tran.category==categ).length||0}</h1>
+                        className={` gap-4 flex rounded-md ${theme.bgFill2} shadow-md`}>
+                            <h1 className={`size-16 ${theme.text2nd} ${categ.color} rounded-md text-4xl  text-center flex justify-center items-center `}>{transactions.filter(tran=>tran.category==categ).length||0}</h1>
                             <p className="text-xl self-center">{categ.name}</p>
                         </div>)}
 

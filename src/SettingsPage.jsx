@@ -37,7 +37,7 @@ const SettingsPage = () => {
 
             <section>
                 <h3>Themes</h3>
-                <div className="flex flex-wrap max-h-[35vh] overflow-hidden hover:overflow-y-scroll gap-4">
+                <div className="flex flex-wrap max-h-[35vh] justify-center overflow-hidden hover:overflow-y-scroll gap-4">
                     {themes.map((theme, index) => (
                         <div
                         onClick={()=>handleChoose(theme)}

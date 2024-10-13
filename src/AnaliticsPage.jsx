@@ -62,9 +62,10 @@ const AnaliticsPage = () => {
                     </div>
                 ))):
                 
-                <div className="top-1/2 absolute self-center flex flex-col gap-4">
+                <div className="top-1/2 absolute self-center text-center flex flex-col gap-4">
                     
                     <h1 className="text-3xl font-bold">No analytics avalible</h1>
+                    <p>You dont have enugh data to show in this page</p>
                     <Link className="bg-teal-600 text-white px-4 rounded-md py-2 self-center" to={'/'}>Home page</Link>
                 </div>
             

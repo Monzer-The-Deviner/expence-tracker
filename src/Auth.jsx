@@ -14,12 +14,12 @@ const AuthPage = () => {
             <img src={bgAsset} className="fixed top-10 w-40 -right-10 "/>
             <img src={bgAsset2} className="fixed top-60 w-40 -left-10 "/>
             
-            <form className="flex p-4  text-white flex-col bg-[#605c7763] backdrop-blur-md rounded-lg w-80 z-10 gap-2">
+            <form className="flex p-4 authform text-white flex-col bg-[#605c7763] backdrop-blur-md rounded-lg w-80 z-10 gap-2">
             {signIn?(
                 <>
                 <div className="flex items-start justify-between">
                     <h1 className="mb-4 text-xl">Welcome Back!!</h1>
-                    <Link to='home'>back</Link>
+                    <Link to='home'>{'back >'}</Link>
                 </div>
                 <label htmlFor="email">Email</label>
                 <input type="email" />
@@ -49,7 +49,7 @@ const AuthPage = () => {
             <>
                 <div className="flex items-start justify-between">
                     <h1 className="mb-4 text-xl">Welcome To The Fam!!</h1>
-                    <Link to={'/'}>back</Link>
+                    <Link to={'/'}>{'back >'}</Link>
                 </div>
                 
                 <label htmlFor="userName">user name</label>
@@ -58,12 +58,13 @@ const AuthPage = () => {
                 <input type="email" />
                 <label htmlFor="password">Password</label>
                 <input id="password" type="password" />
-                <button 
+                <Link 
+                 to={'/'}
                  type="button"
                  className="text-teal-400 border-teal-400 py-2 px-4 self-center"
                  onClick={()=>setUser({username:'guest',email:'hahajoke@email.com'})}>
                 just trying
-                </button>
+                </Link>
                 <div className="flex justify-around p-2 items-center">
 
                     <button onClick={signInWithGoogle}
