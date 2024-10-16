@@ -27,7 +27,7 @@ const HomePage = () => {
         </div >
         <button 
         onClick={()=>setvisible(opacity=>!opacity)}
-        className={`md:invisible rounded-full text-xl ${visible?'invisible':'visible'} ${theme.bg3rd} size-10 ${theme.text2nd} fixed right-2 pb-1 bottom-20`}>+</button>
+        className={`md:invisible rounded-full text-xl ${visible?'invisible':'visible'} ${theme.bg3rd} size-10 ${theme.text2nd} fixed right-1 pb-1 bottom-16`}>+</button>
         </div>
      );
 }

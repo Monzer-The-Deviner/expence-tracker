@@ -19,10 +19,14 @@ const Header = () => {
     const color = total<0? 'text-red-500':'text-green-500'
     
     return ( 
-        <div className={` ${theme.bgFill2} shadow-xl gap-4 rounded-b-lg md:w-full p-4 md:p-8 flex flex-col md:flex-row justify-between`}>
+        <div className={` ${theme.bgFill2} shadow-xl gap-2 rounded-b-lg md:w-full p-1 md:p-2 flex flex-col md:flex-row justify-between`}>
             
-            <div className={`flex items-end pl-4 text-white text-5xl p-2 flex-1  h-32 rounded-md ${total>=0?theme.bg1st:theme.bg1st_2}`} ><span className="text-sm self-start pt-2">your total amount:</span>
-                <div className="bottom-10 text-5xl"><span className={`${color}`}>{sign}</span>${Math.abs(aroundTotal)}</div>
+            <div className={`flex items-end pl-4 gap-2 text-white p-2 flex-1  h-32 rounded-md ${total>=0?theme.bg1st:theme.bg1st_2}`} >
+                <span className="text-sm self-start  pt-2">your total amount:</span>
+                <div className="bottom-10 font-bold text-3xl md:text-5xl">
+                    <span className={`${color}`}>{sign}</span>${Math.abs(aroundTotal)}
+                    
+                </div>
             </div>
 
             <div className={`flex flex-row md:flex-col gap-2 justify-between  flex-1 text-2xl h-12 md:h-auto text-white`}>
