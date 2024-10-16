@@ -3,7 +3,8 @@
 
 import { useEffect, useState, createContext } from "react";
 import { themes } from "../Assets/theme";
-import { auth, signInWithGoogle, logOut, onAuthStateChanged, db } from '../firebase';
+import { auth, signInWithGoogle, logOut, db } from '../firebase';
+import { onAuthStateChanged } from "firebase/auth/cordova";
 import { collection, addDoc, query, where, getDocs } from 'firebase/firestore';
 
 export const GlobalContext = createContext();
