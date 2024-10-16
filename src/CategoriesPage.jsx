@@ -52,7 +52,7 @@ const CategoriesPage = () => {
             </div>
             <button 
         onClick={()=>setvisible(opacity=>!opacity)}
-        className={`md:invisible rounded-full text-3xl ${visible?'invisible':'visible'} ${theme.bg3rd} size-12 ${theme.text2nd} fixed right-4 pb-1 bottom-20`}>+</button>
+        className={`md:invisible rounded-full text-xl ${visible?'invisible':'visible'} ${theme.bg3rd} size-10 ${theme.text2nd} fixed right-4 pb-1 bottom-20`}>+</button>
         </div>
      );
 }
